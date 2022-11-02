@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>prev</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FAE857" offset="0%"></stop>
+            <stop stop-color="#F2CD2C" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="cpa-97_design" transform="translate(-209.000000, -7895.000000)">
+            <g id="art13" transform="translate(209.000000, 7646.000000)">
+                <g id="content" transform="translate(0.000000, 102.000000)">
+                    <g id="prev" transform="translate(0.000000, 147.000000)">
+                        <circle id="Oval" fill="url(#linearGradient-1)" cx="32" cy="32" r="32"></circle>
+                        <g id="flaticon1556774032-svg" transform="translate(21.000000, 21.000000)" fill="#000000" fill-rule="nonzero">
+                            <path d="M8.94444444,6.13333333 L8.94444444,0 L0,10.7333333 L8.94444444,21.4666667 L8.94444444,15.18 C15.3333333,15.18 19.8055556,17.6333333 23,23 C21.7222222,15.3333333 17.8888889,7.66666667 8.94444444,6.13333333 Z" id="Path"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

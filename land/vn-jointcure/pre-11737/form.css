@@ -1,0 +1,119 @@
+.form {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 40px 0px;
+}
+
+.form form {
+  width: 300px;
+}
+
+.form .img {
+  width: 250px;
+}
+
+.form .img img {
+  width: 100%;
+}
+
+.form form input, textarea {
+  display: block;
+  width: 100%;
+  max-width: 250px;
+  margin: 0px auto 16px;
+  border: 1px solid rgb(231, 231, 231);
+  background: rgb(248, 249, 249) none repeat scroll 0% 0%;
+  border-radius: 3px;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
+  padding-left: 15px;
+  height: 40px;
+}
+
+.form form button, .btn3 {
+  background: rgb(52, 152, 219) -o-linear-gradient(top, rgb(52, 152, 219), rgb(41, 128, 185)) repeat scroll 0% 0%;
+  background: rgb(52, 152, 219) -webkit-gradient(linear, left top, left bottom, from(rgb(52, 152, 219)), to(rgb(41, 128, 185))) repeat scroll 0% 0%;
+  background: rgb(52, 152, 219) linear-gradient(to bottom, rgb(52, 152, 219), rgb(41, 128, 185)) repeat scroll 0% 0%;
+  border-radius: 28px;
+  font-family: Arial;
+  color: rgb(255, 255, 255);
+  font-size: 22px;
+  padding: 10px 20px;
+  text-decoration: none;
+  cursor: pointer;
+  display: block;
+  text-align: center;
+  max-width: 250px;
+  width: 100%;
+  margin: 10px auto;
+  text-transform: uppercase;
+  transition: all 0.3s;
+  border: none;
+  font-weight: 700;
+}
+
+.btn3 {
+  max-width: 300px;
+}
+
+.form form button:hover, .btn3:hover {
+  transform: scale(1.1);
+  background: rgb(52, 152, 219) -o-linear-gradient(top, rgb(52, 152, 219), rgb(41, 128, 185)) repeat scroll 0% 0%;
+  background: rgb(52, 152, 219) -webkit-gradient(linear, left top, left bottom, from(rgb(52, 152, 219)), to(rgb(41, 128, 185))) repeat scroll 0% 0%;
+  background: rgb(52, 152, 219) linear-gradient(to bottom, rgb(52, 152, 219), rgb(41, 128, 185)) repeat scroll 0% 0%;
+  color: #fff;
+}
+
+.form form .prices {
+  width: 100%;
+  text-align: center;
+  font-size: 0px;
+  margin: 0px 0px 15px;
+}
+
+.form form .prices .new {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 25px;
+  text-transform: uppercase;
+  margin: 5px;
+  color: rgb(52, 152, 219);
+  font-weight: 700;
+}
+
+.form form .prices .new p {
+  font-size: 24px;
+  margin: 0 auto;
+  color: rgb(52, 152, 219);
+}
+
+.form form .prices .old {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 19px;
+  color: rgb(178, 178, 178);
+  margin: 5px;
+}
+
+.form form .prices .old p {
+  font-size: 16px;
+  margin: 0 auto;
+  color: rgb(178, 178, 178);
+}
+
+.toForm {
+  cursor: pointer;
+}
+
+@media all and (max-width: 600px) {
+  .form { width: 100%; flex-direction: column; padding: 20px 0px; }
+  .form .img { padding: 20px 0px; }
+}
+
+@media all and (max-width: 400px) {
+  .form form input, .form form button { width: 100%; }
+}

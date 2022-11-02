@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440px" height="522px" viewBox="0 0 1440 522" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>a11-bg</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="76.260693%" y1="44.9057382%" x2="22.3691856%" y2="55.2145219%" id="linearGradient-1">
+            <stop stop-color="#FAE857" offset="0%"></stop>
+            <stop stop-color="#F2CD2C" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-2" x="0" y="0" width="1440" height="522"></rect>
+    </defs>
+    <g id="Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="cpa-97_design" transform="translate(0.000000, -6337.000000)">
+            <g id="✅-art11" transform="translate(0.000000, 6337.000000)">
+                <g id="a11-bg">
+                    <mask id="mask-3" fill="white">
+                        <use xlink:href="#path-2"></use>
+                    </mask>
+                    <use id="Rectangle" fill="url(#linearGradient-1)" opacity="0.418782552" xlink:href="#path-2"></use>
+                    <circle id="Oval" fill="#E9FCFF" mask="url(#mask-3)" cx="1155" cy="-17" r="89"></circle>
+                    <circle id="Oval-Copy-3" fill="#E9FCFF" mask="url(#mask-3)" cx="257.5" cy="132.5" r="230.5"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,44 @@
+.phone-box {
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 1.5%;
+  width: 160px;
+  -webkit-box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+
+.number span {
+  text-decoration: none;
+
+  color: #ffffff;
+}
+
+.text-box {
+  width: 160px;
+  background: #ffd400;
+  padding: 6px;
+  text-transform: uppercase;
+  color: #000000;
+  font-weight: bold;
+  font-size: 12px;
+  border-bottom: 1px solid #ccc;
+}
+
+.number {
+  width: 160px;
+  background: #00bbb7;
+  padding: 6px;
+  text-transform: uppercase;
+  color: #000000;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+@media(max-width:1360px) {
+  .phone-box {
+    display: none;
+  }
+}

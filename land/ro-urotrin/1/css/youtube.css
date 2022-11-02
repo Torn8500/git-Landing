@@ -1,0 +1,106 @@
+.youtube{background-color:#000;max-width:100%;overflow:hidden;position:relative;cursor:hand;cursor:pointer;display: inline-block;}.youtube .thumb{bottom:0;display:block;left:0;margin:auto;max-width:100%;position:absolute;right:0;top:0;width:100%;height:auto}.youtube .play{filter:alpha(opacity=80);opacity:.8;height:77px;left:50%;margin-left:-38px;margin-top:-38px;position:absolute;top:50%;width:77px;}
+
+.video__name{
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.youtube .play{
+    background: url("../png/playy.png");
+    background: url("../png/playy.png");
+}
+.video-wrap iframe{
+    border: none;
+}
+
+#video-wrap {
+    font-size: 0;
+    margin: 30px 0;
+}
+.video-wrap {
+    display: inline-block;
+    min-height: 290px;
+    vertical-align: top;
+    text-align: center;
+}
+.video-wrap-3 {
+    margin: 10px 1%;
+    width: 31%;
+}
+.video-wrap-2 {
+    margin: 10px 1%;
+    width: 47%;
+}
+
+.video_title {
+    font-family: inherit;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.video_subtitle {
+    font-size: 20px;
+    font-weight: 600;
+    /* padding-left: 20px; */
+    text-align: center;
+    margin-top: 10px;
+}
+.scroll-to-video {
+    float: left;
+}
+.get-call {
+    float: right;
+}
+
+.btn_wrapper {
+    display: inline-block;
+    text-align: center;
+    width: 55%;
+    float: right;
+}
+
+.scroll-to-video, a.scroll-to-video:link, a.scroll-to-video:focus, a.scroll-to-video:active, a.scroll-to-video:visited, a.scroll-to-video:hover {
+    text-decoration: none;
+    outline: none;
+}
+
+@media screen and (max-width: 1000px){
+    /*.video-wrap:nth-child(2), .video-wrap:nth-child(3) {
+        width: 40%;
+        margin: 0 5%;
+    }
+    .video-wrap:nth-child(4){
+        width: 40%;
+        margin: 0 30%;
+    }*/
+    .btn_wrapper {
+        display: inline-block;
+        width: 70%;
+        float: right;
+    }
+}
+
+@media screen and (max-width: 769px) {
+    #video-wrap{
+        text-align: center;
+    }
+    .video-wrap {
+        width: 100% !important;
+        margin: 0 !important;
+    }
+    .btn_wrapper {
+        padding-top: 5px;
+        width: 100%;
+    }
+    .scroll-to-video {
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .scroll-to-video, .get-call {
+        float: none;
+        margin: 16px 0 0;
+        width: 80%  ;
+    }
+}
+

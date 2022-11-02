@@ -1,0 +1,1717 @@
+
+* {
+	outline: none;
+}
+
+[placeholder]:focus::-webkit-input-placeholder {
+	color: transparent
+}
+
+[placeholder]:focus::-moz-placeholder {
+	color: transparent
+}
+
+[placeholder]:focus:-ms-input-placeholder {
+	color: transparent
+}
+
+[placeholder]:focus:-moz-placeholder {
+	color: transparent
+}
+
+[placeholder]:focus::placeholder {
+	color: transparent
+}
+
+body {
+	margin: 0;
+	color: #fff;
+	font: 17px/25px "Arial", sans-serif;
+	background: #e1edf9;
+	min-width: 320px;
+	overflow-x: hidden;
+}
+main{
+	overflow: hidden;
+	width: 100%;
+	background: url("../images/img1.0.1.png"/*tpa=https://hottest-goodies.com/jointcure/lp2/VT/images/img1.0.1.png*/) center 0px repeat-x;
+}
+img {
+	border-style: none;
+	max-width: 100%;
+}
+
+a {
+	text-decoration: none;
+	color: #a82720;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+input,
+select {
+	vertical-align: middle;
+	color: #000;
+	outline: none;
+}
+
+form {
+	margin: 0;
+	padding: 0;
+	border-style: none;
+}
+
+html {
+	font-family: sans-serif;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+
+body {
+	margin: 0;
+}
+
+a {
+	background-color: transparent;
+}
+
+a:active,
+a:hover {
+	outline: 0;
+}
+
+img {
+	border: 0;
+}
+
+button,
+input,
+select {
+	color: inherit;
+	font: inherit;
+	margin: 0;
+}
+
+button {
+	overflow: visible;
+}
+
+button,
+select {
+	text-transform: none;
+}
+
+button {
+	-webkit-appearance: button;
+	cursor: pointer;
+}
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+	border: 0;
+	padding: 0;
+}
+
+input {
+	line-height: normal;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+td {
+	padding: 0;
+}
+
+
+
+.wrapper-hidden {
+	position: relative;
+	width: 100%;
+	
+}
+
+.wrapper {
+	position: relative;
+	z-index: 2;
+	margin: 0 auto;
+	max-width: 1000px;
+}
+
+* {
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+
+ul {
+	padding: 0;
+	margin: 0 0 10px 25px;
+}
+
+li {
+	line-height: 20px;
+}
+
+ul.unstyled {
+	margin-left: 0;
+	list-style: none;
+}
+
+ul.inline {
+	margin-left: 0;
+	list-style: none;
+}
+
+ul.inline> li {
+	display: inline-block;
+	*display: inline;
+	padding-right: 5px;
+	padding-left: 5px;
+	*zoom: 1;
+}
+
+.block__timer {
+	text-align: center;
+	vertical-align: top;
+	*display: inline;
+	*zoom: 1;
+}
+
+.block__timer .landing__countdown {
+	display: block;
+	width: 215px;
+	margin: 10px auto;
+	padding: 0 0;
+	height: 30px;
+}
+
+.block__timer .landing__countdown span {
+	font: 700 26px/40px "Arial", sans-serif;
+	color: #411c32;
+	display: inline-block;
+	width: 61px;
+	background: transparent url("../images/img1.6.png"/*tpa=https://hottest-goodies.com/jointcure/lp2/VT/images/img1.6.png*/) 0 0 no-repeat;
+	height: 42px;
+	*display: inline;
+	*zoom: 1;
+	margin: 0 5px;
+	text-align: center;
+	letter-spacing: 18px;
+	padding-left: 8px;
+}
+.block1 .wrapper {
+	padding-bottom: 100px;
+	min-height: 622px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.block1__top {
+	font: 300 23px/50px "Arial";
+	color: #FFFFff;
+	text-transform: uppercase;
+	padding: 0 0 0 15px;
+}
+
+.block1__top-sale {
+	position: relative;
+	font: normal 35px/40px "Tahoma";
+	width: 106px;
+	text-align: center;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.block1__top-sale::before {
+	content: '';
+	position: absolute;
+	background: transparent url("../images/img1.1.png"/*tpa=https://hottest-goodies.com/jointcure/lp2/VT/images/img1.1.png*/) 0 0 no-repeat;
+	background-size: contain;
+	width: 106px;
+	height: 100px;
+	left: 0;
+	top: -28px;
+	z-index: -1;
+}
+
+.block1__top-action {
+	width: 325px;
+	text-align: center;
+	float: right;
+	display: inline-block;
+	color: #ffcc19;
+	position: relative;
+}
+
+.block1__body {
+	position: relative;
+}
+
+.block1__body::before {
+	content: '';
+	position: absolute;
+	background: url("../images/img1.5.png"/*tpa=https://hottest-goodies.com/jointcure/lp2/VT/images/img1.5.png*/) no-repeat 0 0 transparent;
+	width: 227px;
+	height: 183px;
+	right: 76px;
+	top: -49px;
+	z-index: -1;
+}
+
+.block1__left {
+	display: inline-block;
+	padding: 55px 0 0 0;
+	text-align: center;
+	position: relative;
+	z-index: 99;
+}
+.pr{
+	text-align: center;
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: 300;
+	color: #FFFFff;
+}
+.pr p{
+	margin: 0 0 15px;
+}
+.block1__left img {
+	max-width: 100%;
+	display: block;
+	margin: 0 auto;
+}
+
+.block1__right {
+	position: relative;
+	text-align: center;
+}
+.block1_right-top{
+	background: #188bcc;
+	padding: 0 0 20px;
+	-webkit-border-bottom-right-radius: 15px;
+	-webkit-border-bottom-left-radius: 15px;
+	-moz-border-radius-bottomright: 15px;
+	-moz-border-radius-bottomleft: 15px;
+	border-bottom-right-radius: 15px;
+	border-bottom-left-radius: 15px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+/*.block1__top-action::before {*/
+	/*content: '';*/
+	/*position: absolute;*/
+	/*width: 438px;*/
+	/*height: 222px;*/
+	/*top: 0;*/
+	/*right: 2px;*/
+	/*z-index: -1;*/
+/*}*/
+
+.block1__title {
+	padding: 50px 0 30px 0;
+	color: #ecaa00;
+	line-height: 1.1;
+	font: normal 25px "Tahoma";
+	text-align: left;
+	font-weight: 700;
+}
+
+.block1__sub {
+	font: 300 21px/35px "Arial";
+	color: #188bcc;
+	text-align: left;
+	font-weight: 700;
+}
+
+.block1__price {
+	font: normal 19px/53px "Tahoma";
+	color: #ecaa00;
+	background: transparent url("../images/img1.4.png"/*tpa=https://hottest-goodies.com/jointcure/lp2/VT/images/img1.4.png*/) center 0 no-repeat;
+	background-size: contain;
+	width: 259px;
+	height: 53px;
+}
+
+.block1__price span {
+	width: 17%;
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+	line-height: 38px;
+}
+
+.block1__price .oldprice {
+	text-decoration: line-through;
+}
+
+.block__timer-text {
+	color: #FFFFff;
+	font: 300 17px/22px "Arial";
+}
+
+.block1__right ul {
+	margin: 25px 0 0 40px;
+	padding: 0;
+	font-weight: 700;
+}
+
+.block1__right ul li {
+	font: 300 18px/30px "Arial";
+	color: #188bcc;
+	padding: 5px 0 5px 55px;
+	text-align: left;
+	background: transparent url("../images/img1.7.png"/*tpa=https://hottest-goodies.com/jointcure/lp2/VT/images/img1.7.png*/) left center no-repeat;
+	font-weight: 700;
+}
+
+.block2 {
+	font: 300 20px/28px "Arial";
+	color: #FFFFff;
+	padding-bottom: 100px;
+}
+.star{
+	position: absolute;
+	top: 0;
+	left: 116px;
+	width: 300px;
+	z-index: 3;
+}
+.block2 .wrapper-hidden {
+	padding-top: 18px;
+	margin-top: -18px;
+}
+
+.block2__top {
+	background: #127fc2;
+	position: relative;
+	z-index: 2;
+}
+
+.block2__top .wrapper {
+	padding: 25px 10px 35px 215px;
+	min-height: 252px;
+	background: url("../images/img2.0.jpg"/*tpa=https://hottest-goodies.com/jointcure/lp2/VT/images/img2.0.jpg*/) no-repeat center 0 transparent;
+	background-size: contain;
+}
+
+
+.block2__bottom {
+	position: relative;
+	z-index: 2;
+}
+.block2__bottom .wrapper::before {
+	content: '';
+	display: block;
+	background: url("../images/img2.1.png"/*tpa=https://hottest-goodies.com/jointcure/lp2/VT/images/img2.1.png*/) no-repeat 100% 50%;
+	background-size: contain;
+	width: 87%;
+	height: 337px;
+	position: absolute;
+	top: -194%;
+	margin-top: -60px;
+	right: -46px;
+	z-index: 2;
+}
+.block2__title {
+	font: 400 22px/30px "Tahoma";
+	color: #ecaa00;
+	padding-left: 215px;
+	position: relative;
+	z-index: 2;
+	padding-right: 80px;
+	font-weight: 700;
+}
+.block2__title:before{
+	content: '';
+	background: url("../images/productstar.png"/*tpa=https://hottest-goodies.com/jointcure/lp2/VT/images/productstar.png*/);
+	position: absolute;
+	width: 340px;
+	height: 500px;
+	left: -80px;
+	top: -340px;
+	z-index: 3;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.block3__title {
+	font: 400 34px/40px "Tahoma";
+	color: #ecaa00;
+	padding: 40px 15px 30px;
+	font-weight: 700;
+}
+
+.block3__list ul {
+	text-align: center;
+}
+
+.block3__list ul li {
+	vertical-align: top;
+	color: #188bcc;
+	width: 328px;
+	text-align: center;
+	font: 300 20px/30px "Arial";
+	padding-top: 200px;
+	margin-bottom: 15px;
+}
+
+.block3__list ul li .block3__list_title {
+	text-transform: uppercase;
+	color: #ecaa00;
+	font: 400 22px/30px "Arial";
+	font-weight: 700;
+}
+
+.block3__list .item1 {
+	background: url("../images/img3.1.png"/*tpa=https://hottest-goodies.com/jointcure/lp2/VT/images/img3.1.png*/) no-repeat center 0 transparent;
+}
+
+.block3__list .item2 {
+	background: url("../images/img3.png"/*tpa=https://hottest-goodies.com/jointcure/lp2/VT/images/img3.png*/) no-repeat center 0 transparent;
+}
+
+.block3__list .item3 {
+	background: url("../images/img3.3.png"/*tpa=https://hottest-goodies.com/jointcure/lp2/VT/images/img3.3.png*/) no-repeat center 0 transparent;
+}
+
+.block3__list .item4 {
+	background: url("../images/img3.4.png"/*tpa=https://hottest-goodies.com/jointcure/lp2/VT/images/img3.4.png*/) no-repeat center 0 transparent;
+}
+
+.block3__list .item5 {
+	background: url("../images/img3.5.png"/*tpa=https://hottest-goodies.com/jointcure/lp2/VT/images/img3.5.png*/) no-repeat center 0 transparent;
+}
+
+/* block4 */
+
+.block4 {
+    position: relative;
+}
+
+.block4::before {
+    content: '';
+    width: 100%;
+    height: 366px;
+    position: absolute;
+    background: #188bcc;
+}
+
+.block4__title {
+    padding: 20px 0 20px 20px;
+    color: #edbe1b;
+    font: normal 175%/110% 'Tahoma';
+	font-weight: 700;
+}
+
+.block4__top {
+    padding: 20px;
+    color: #188bcc;
+    font: 300 18px/23px "Arial";
+    text-align: left;
+    background-color: #fff;
+	border-radius: 0 20px 0 0;
+	height: 360px;
+}
+
+.block4__bottom {
+	overflow: hidden;
+	font: 300 18px/23px "Arial";
+	text-align: left;
+	z-index: 10;
+	position: relative;
+    background-color: #25aae2;
+    padding: 20px 0 20px 20px;
+    border-radius: 0 0 20px 20px;
+}
+
+.block4__bottom img {
+    float: left;
+    width: 85px;
+}
+
+.block4__bottom_name {
+    margin-left: 100px;
+	color: #edbe1b;
+	font-weight: 700;
+}
+
+
+/* slider */
+
+.slider {
+    margin: 0 auto;
+    position: relative;
+    width: 240px;
+/*    height: 445px;*/
+}
+
+.slider__wrapper {
+/*  height: 100%;*/
+  width: 100%;
+  list-style: outside none none;
+  margin: 0 auto;
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+}
+
+.slider__item {
+    padding: 20px 0 0 0;
+    text-align: center;
+    clear: none;
+    position: relative;
+    border-radius: 0 20px 20px 20px;
+}
+@media(min-width: 950px){
+	.slider{
+		width: 100%;
+	}
+	.slider__item{
+		width: 32%;
+	}
+}
+.owl-carousel .owl-wrapper-outer {
+    z-index: 10
+}
+.arrow{
+	position: absolute;
+	top: 0;
+	left: -3px;
+	width: 0; 
+	height: 0; 
+	border-top: 20px solid transparent;
+	border-bottom: 20px solid transparent;
+	border-right:20px solid #fff; 
+	transform: rotate(-45deg);
+}
+@media(max-width: 949px){
+	.arrow{
+		display: none;
+	}
+	.block4__top{
+		border-radius: 20px 20px 0 0;
+	}
+}
+/* slider */
+/* block4 */
+
+.block5 {
+	margin-top: -252px;
+	padding-top: 246px;
+	background: #188bcc;
+	overflow-y: hidden;
+}
+.block5 .wrapper{
+	min-height: 527px;
+}
+.block5__title {
+	font: 400 40px/40px "Tahoma";
+	color: #edbe1b;
+	padding: 40px 15px 60px 20px;
+	font-weight: 700;
+}
+.block5__text{
+	color: #000;
+}
+.block5 img {
+	position: absolute;
+	bottom: -5px;
+	left: 0;
+	max-width: 34.5%;
+}
+
+.block5__wrap {
+	margin-left: 36.5%;
+	margin-right: 15px;
+	background: #ffd237;
+	-webkit-border-radius: 20px 20px 0 0;
+	   -moz-border-radius: 20px 20px 0 0;
+	        border-radius: 20px 20px 0 0;
+	font: 300 20px/27px "Arial";
+	padding: 15px 15px 14px;
+	color: #FFFFff;
+	position: relative;
+}
+
+.block5__wrap::before {
+	content: '';
+	position: absolute;
+	background: url("../images/img4.1.png"/*tpa=https://hottest-goodies.com/jointcure/lp2/VT/images/img4.1.png*/) no-repeat 0 0 transparent;
+	width: 50px;
+	height: 33px;
+	left: -25px;
+	top: 110px;
+}
+
+.block5__name {
+	color: #188bcc;
+	padding: 40px 0 14px;
+	font-weight: 700;
+}
+
+/* block6 */
+.block6{
+    background: #ffffff;
+}
+.block6 .wrapper{
+    padding: 40px 0;
+}
+.block6__title{
+    font: 400 36px Tahoma;
+    color: #ecaa00;
+	padding: 0 0 40px 20px;
+	font-weight: 700;
+}
+.block6 ul {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+}
+.block6 ul li{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+    font: 300 20px/30px 'Arial';
+    color: #188bcc;
+    vertical-align: top;
+	width: 305px;
+	font-weight: 700;
+}
+.block6 ul li img{
+	max-width: 100%;
+}
+/* block6 */
+
+
+/* block7 */
+.block7{
+    height: 580px;
+}
+.block7 .wrapper-hidden{
+    padding-top: 40px;
+    margin-top: -40px;
+    height: 590px;
+    /*background: #612549;*/
+}
+.block7 .wrapper-hidden::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 40px;
+    width: 100%;
+    height: 380px;
+    background: #188bcc;
+}
+.block7__delivery{
+    font: 300 20px/30px 'Arial';
+    color: #FFFFff;
+    padding-right: 318px;
+    position: relative;
+    padding-left: 20px;
+}
+.block7__delivery::before{
+    content: '';
+    position: absolute;
+    background: url("../images/img6.3_1.png"/*tpa=https://hottest-goodies.com/jointcure/lp2/VT/images/img6.3_1.png*/) no-repeat 0 0 transparent;
+    width: 372px;
+    height: 347px;
+    right: -70px;
+    top: -40px;
+}
+.block7__delivery_title{
+    font: 400 36px Tahoma;
+    color: #ecaa00;
+    text-align: left;
+	padding: 30px 0 20px 0;
+	font-weight: 700;
+}
+.block7__warning_title {
+    font: 400 28px/40px Tahoma;
+    color: #188bcc;
+    text-align: left;
+	padding: 0 0 30px 0;
+	font-weight: 700;
+}
+.block7__warning{
+    position: relative;
+    width: 655px;
+    padding: 20px 225px 20px 20px;
+    background: #ffd237;
+    color: #188bcc;
+    margin: 40px 0 0 0;
+    border-radius: 20px;
+    font: 300 20px/30px 'Arial';
+}
+.block7__warning::before{
+    content: '';
+    position: absolute;
+	background: url("../images/img6.1.png"/*tpa=https://hottest-goodies.com/jointcure/lp2/VT/images/img6.1.png*/) no-repeat 0 0 transparent;
+	background-size: contain;
+    width: 239px;
+    height: 331px;
+    right: -54px;
+    top: -42px;
+}
+.block7__btn {
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+    color: #FFFFff;
+    background: transparent url("../images/img6.2.png"/*tpa=https://hottest-goodies.com/jointcure/lp2/VT/images/img6.2.png*/) 0 0 no-repeat;
+    width: 167px;
+    height: 50px;
+    font: 400 18px/50px 'Arial';
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+}
+/* block7 */
+
+.block8__title {
+	font: 400 36px/40px "Tahoma";
+	color: #ecaa00;
+	padding: 30px 15px;
+	font-weight: 700;
+}
+
+.block8 ul {
+	background: transparent url("../images/img7.1.png"/*tpa=https://hottest-goodies.com/jointcure/lp2/VT/images/img7.1.png*/) center 0 no-repeat;
+	background-size: contain;
+	text-align: center;
+	font-size: 0;
+	max-width: 859px;
+	margin: 0 auto;
+}
+
+.block8 ul li {
+	padding: 190px 0 0;
+	margin: 0 10%;
+	width: 20%;
+	text-align: center;
+	color: #188bcc;
+	font: 300 18px/1.5 "Arial";
+	font-weight: 700;
+}
+.block8 ul li:first-of-type{
+	margin-left: 0;
+}
+.block8 ul li:last-of-type{
+	margin-right: 0;
+}
+
+.block10 {
+	margin-top: 80px;
+	background: transparent url("../images/img8.1.png"/*tpa=https://hottest-goodies.com/jointcure/lp2/VT/images/img8.1.png*/) left 0 repeat-x;
+	background-size: cover;
+	padding-bottom: 30px;
+}
+
+.block10__left {
+	width: 48%;
+	border: 2px dashed #ecaa00;
+	border-radius: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	padding: 35px;
+}
+.block10__right{
+	width: 48%;
+}
+.block10 .wrapper{
+	padding: 30px;
+	background-image: linear-gradient(#49b9ff, #2183be, #01578a);
+	border-radius: 10px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.block10__title {
+	color: #FFFFff;
+	font: 400 27px/40px "Tahoma";
+	text-align: center;
+	margin-right: 16%;
+	position: relative;
+	font-weight: 700;
+	margin-bottom: 10px;
+}
+
+.block10__left::before {
+	content: '';
+	position: absolute;
+	background: transparent url("../images/productstar.png"/*tpa=https://hottest-goodies.com/jointcure/lp2/VT/images/productstar.png*/) 0 0 no-repeat;
+	background-size: contain;
+	width: 319px;
+	height: 445px;
+	left: -160px;
+	top: 66px;
+	z-index: 1;
+}
+
+.block10__price {
+	background: transparent url("../images/img8.4.png"/*tpa=https://hottest-goodies.com/jointcure/lp2/VT/images/img8.4.png*/) left 0 no-repeat;
+	background-size: contain;
+	text-align: center;
+	position: relative;
+	max-width: 295px;
+	display: flex;
+	flex-direction: column;
+	margin-right: 28%;
+}
+
+.block10__price .oldprice {
+	font: 400 22px/73px "Arial";
+	color: #fcc524;
+	width: 49%;
+	padding: 0 16px;
+	display: inline-block;
+	vertical-align: top;
+	text-decoration: line-through;
+}
+
+.block10__price .newprice {
+	vertical-align: top;
+	display: inline-block;
+	font: 400 28px/73px "Arial";
+	color: #178bcb;
+	width: 49%;
+	padding: 0 12px;
+	font-weight: 700;
+}
+
+.block10__sale {
+	width: 350px;
+	font: 400 14px/26px "Arial";
+	color: #ecaa00;
+	text-transform: uppercase;
+	margin-right: -53px;
+}
+.block10__sale div{
+	margin-top: 12px;
+	font-weight: 700;
+}
+
+.block10__count {
+	width: 68px;
+	height: 54px;
+	display: inline-block;
+	text-align: center;
+	float: left;
+	color: #178bcb;
+	font: 400 40px/54px "Arial";
+	background: transparent url("../images/img8.3.png"/*tpa=https://hottest-goodies.com/jointcure/lp2/VT/images/img8.3.png*/) 0 0 no-repeat;
+}
+
+.block10-form {
+	padding: 47px 10px;
+	width: 100%;
+	-webkit-border-radius: 20px;
+	   -moz-border-radius: 20px;
+	        border-radius: 20px;
+	background: #188bcc;
+}
+
+.block10-btn{
+	width:203px;
+	display:block;
+	border:1px solid #ffd38e;
+	background-image: linear-gradient(#f87007, #feb539);
+	border-radius:50px;
+	text-align:center;
+	color:#fff;
+	font:700 30px/60px Arial;
+	-moz-transition:all 1s ease-out;
+	-o-transition:all 1s ease-out;
+	-webkit-transition:all 1s ease-out;
+	margin:0 auto!important
+}
+
+.block10-btn:hover {
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-o-transform: scale(1.1);
+}
+.block10__allsale {
+    color: #fffffe;
+    font: 300 18px/25px 'Arial';
+    text-align: center;
+    width: 355px;
+    background: transparent url("../images/img8.6.png"/*tpa=https://hottest-goodies.com/jointcure/lp2/VT/images/img8.6.png*/) 0 0 no-repeat;
+    background-size: cover;
+    border-radius: 0 0 10px 10px;
+    margin-top: 13px;
+    padding: 10px 20px;
+}
+
+.form-horizontal {
+	margin-bottom: 0;
+}
+
+.form-horizontal .row {
+	margin-bottom: 20px;
+}
+
+.form-horizontal .row select,
+.form-horizontal .row input[type="text"] {
+	width: 100%;
+	height: 42px;
+	padding: 5px 10px;
+	border: 1px solid #ae1f22;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	-webkit-box-shadow: 0 2px 5px #f5eedc inset;
+	-moz-box-shadow: 0 2px 5px #f5eedc inset;
+	box-shadow: 0 2px 5px #f5eedc inset;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+
+	display: block;
+}
+
+.form-horizontal .row label {
+	display: block;
+	color: #FFFFff;
+	font: 300 23px/23px "Arial";
+	padding-bottom: 10px;
+	text-transform: uppercase;
+}
+
+.form-horizontal .row-submit {
+	margin-left: 10px;
+	margin-bottom: 0;
+}
+
+.row-submit button:active,
+.row-submit button:focus,
+.row-submit button:hover,
+.row-submit button {
+	vertical-align: top;
+	margin: 0;
+	text-transform: uppercase;
+}
+
+.block11 {
+	margin-top: 0;
+	padding: 25px 0;
+	background: #3a1a2d;
+	color: #b7064d;
+	text-align: center;
+	font: 300 16px/26px "Arial";
+}
+
+.block11 .wrapper {
+	z-index: 0;
+}
+
+.imlogo {
+	display: block;
+	position: absolute;
+	bottom: 0;
+	width: 35%;
+	left: 92%;
+	margin-left: -131px;
+}
+
+.akciya1 {
+	display: block;
+	width: 270px;
+	margin: -5px auto;
+	text-align: center;
+	padding: 20px 0;
+	font-size: 30px;
+	background-color: #F90;
+	-webkit-border-radius: 20px;
+	   -moz-border-radius: 20px;
+	        border-radius: 20px;
+	color: #FFF;
+	font-weight: bold;
+	text-decoration: none;
+	-webkit-box-shadow: 0 0 5px rgba(0, 0, 0, .5);
+	   -moz-box-shadow: 0 0 5px rgba(0, 0, 0, .5);
+	        box-shadow: 0 0 5px rgba(0, 0, 0, .5);
+	border-width: 1px;
+	border-style: solid;
+	border-color: transparent;
+	-webkit-transform: translateZ(0);
+	   -moz-transform: translateZ(0);
+	        transform: translateZ(0);
+	-webkit-transition: .2s ease-out 0s;
+	-o-transition: .2s ease-out 0s;
+	-moz-transition: .2s ease-out 0s;
+	transition: .2s ease-out 0s;
+	-webkit-transition-property: background-color, color, border-color, -webkit-box-shadow;
+	transition-property: background-color, color, border-color, -webkit-box-shadow;
+	-o-transition-property: background-color, color, border-color, box-shadow;
+	-moz-transition-property: background-color, color, border-color, box-shadow, -moz-box-shadow;
+	transition-property: background-color, color, border-color, box-shadow;
+	transition-property: background-color, color, border-color, box-shadow, -webkit-box-shadow, -moz-box-shadow;
+	-webkit-backface-visibility: hidden;
+	   -moz-backface-visibility: hidden;
+	        backface-visibility: hidden;
+	will-change: background-color, color, border-color, box-shadow;
+	cursor: pointer;
+}
+
+.akciya1:hover, #orderSubmit:hover {
+	background-color: #FF3;
+	color: #C00;
+	text-decoration: none;
+	-webkit-box-shadow: 0 1px 15px #fff;
+	   -moz-box-shadow: 0 1px 15px #fff;
+	        box-shadow: 0 1px 15px #fff;
+	border-color: #ffffff;
+}
+
+select::-ms-expand {
+	display: none;
+}
+
+.country_select {
+	background: url("../images/select-arrow.png"/*tpa=https://hottest-goodies.com/jointcure/lp2/VT/images/select-arrow.png*/)no-repeat 97% 50% #fff;
+	-webkit-user-select: none;
+	-moz-user-select: -moz-none;
+	-ms-user-select: none;
+	user-select: none;
+
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+}
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+.block10__sale p{
+	margin-top: -10px;
+	font-weight: 700;
+}
+#buyForm input, #buyForm label{
+	display: block;
+	margin:23px auto;
+	width:98%;
+}
+#buyForm input{
+	padding:5px 2px;
+	border: none;
+	border-radius: 10px;
+	margin-bottom: 38px;
+	height: 43px;
+	color:#000;
+	font-size:25px;
+}
+#buyForm label{
+	color:white;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size:25px;
+}
+#buyForm button{
+width: 203px;
+display: block;
+border: none;
+border-radius: 20px;
+text-align: center;
+color: #fff;
+font: 700 30px/60px 'Arial';
+-moz-transition: all 1s ease-out;
+-o-transition: all 1s ease-out;
+-webkit-transition: all 1s ease-out;
+margin: 0 auto!important;
+width: 98%;
+background-color: #ff7f26;
+
+}
+
+
+
+
+.country_select::-ms-expand {
+	display: none;
+}
+
+@media(max-width: 950px){
+	.block10 .wrapper{
+		flex-direction: column;
+		background-image: linear-gradient(#25aae1, #ecaa00);
+	}
+	.block10__left, .block10__right{
+		width: 95%;
+	}
+	.block10__left{
+		border: none;
+	}
+	.block10__left::before{
+		left: 47px;
+		top: 37px;
+		height: 321px;
+	}
+	.block10__allsale{
+		display: none;
+	}
+	.block10__sale div{
+		display: none;
+	}
+	.block10__price{
+		margin-right: 8%;
+	}
+	.block10__price{
+		margin-right: 40px;
+	}
+	.block10__sale{
+		margin-right: -200px;
+	}
+	.block10{
+		background: transparent;
+	}
+	.block10__title{
+		margin-bottom: 10px;
+		line-height: 1.15;
+		width: 150px;
+		margin-right: 38px;
+	}
+	.block10__sale p{
+		width: 150px;
+		text-align: center;
+		margin-left: -40px;
+	}
+
+}
+@media only screen and (max-width: 800px) {
+
+	.block7, .block8{
+		display: none;
+	}
+	.block2 {
+		height: initial;
+	}
+
+	.block2__top .wrapper {
+		padding: 25px 15px;
+		min-height: initial;
+	}
+
+	.block2__bottom .wrapper::before{
+		display: none;
+	}
+
+	.block2__title {
+		display: none;
+	}
+	.block1__price span{
+		width: 40%;
+	}
+
+
+}
+@media only screen and (max-width: 640px) {
+	body{
+		background: transparent;
+	}
+	.hidedoctor{
+		display: none;
+	}
+	.block1__title{
+		display: block;
+		padding: 20px 0 0;
+	}
+	.block6{
+		padding: 0 10px;
+	}
+	body {
+		background-position: 100% -40px;
+	}
+	.block1 .wrapper, .block2{
+		padding-bottom: 0;
+	}
+	.block1 .wrapper{
+		padding-right: 0;
+		padding-left: 0;
+	}
+	.imlogo,
+	.block1__top,
+	.block1__body::before{
+		display: none;
+	}
+	.block1__body {
+		padding-bottom: 30px;
+	}
+	.block1__left {
+		width: initial;
+		max-width: 300px;
+		position: relative;
+		top: 0;
+		left: 0;
+		margin: 110px auto 30px;
+		display: block;
+	}
+	.block1__right {
+		width: 100%;
+		float: none;
+	}
+	.block1_right-top{
+		background: none;
+		padding: 0;
+	}
+	.block1__price {
+		max-width: 303px;
+		margin: 0 auto;
+	}
+	.block1__right ul {
+		margin: 20px auto 0;
+		padding: 20px;
+		background-color: #25aae1;
+		color: #fff;
+		position: relative;
+	}
+	.block1__right ul li{
+		color: #fff;
+	}
+	.block1__right ul li img{
+		position: absolute;
+		width: 150px;
+		left: 28%;
+		bottom: -62px;
+	}
+	.block2__bottom{
+		display: none;
+	}
+	.block2__top img{
+		display: none;
+	}
+	.block2__top, .block2__top .wrapper{
+		color: #1481c4;
+		background: transparent;
+	}
+	.block3{
+		background-color: #1481c4;
+	}
+	.block3__list ul li{
+		color: #fff;
+	}
+	.block3__list ul{
+		margin-bottom: 0;
+	}
+	.block3__title .productfont{
+		color: #ecaa00;
+	}
+	.block4{
+		background: #ecaa00;
+	}
+	.block4__top{
+		border-radius: 0;
+		color: #188bcc;
+		height: 415px;
+	}
+	.block5{
+		background-color: transparent;
+		padding-top: 0;
+		margin-top: 0;
+	}
+	.block5__title{
+		color: #188bcc;
+		text-align: left;
+		width: 62%;
+		font-size: 20px;
+		padding: 20px;
+		line-height: 1;
+	}
+	.block5__wrap::before{
+		display: none;
+	}
+	.block5__wrap {
+		margin-left: 0;
+		margin-right: 0;
+		border-radius: 0;
+		background-color: #25aae1;
+	}
+	.block5__text{
+		color: #fff;
+	}
+	.block5__text b{
+		color: #ecaa00;
+	}
+	.block5__name {
+		width: 60%;
+		color: #ecaa00;
+	}
+	.block5 img {
+		left: initial;
+		right: 15px;
+		z-index: 2;
+		top: -79px;
+	}
+
+	.block6 ul li {
+		width: 96%;
+		margin-bottom: 15px;
+	}
+
+	.block7 .wrapper-hidden {
+		padding-bottom: 40px;
+		height: initial;
+	}
+	.block7__delivery::before {
+		display: none;
+	}
+	.block7__delivery {
+		margin-top: 5px;
+		padding-right: 15px;
+		font-size: 18px;
+		line-height: 1.5;
+	}
+	.block7__delivery_title {
+		text-align: center;
+		padding: 20px 10px;
+	}
+	.smalltitle{
+		color: #ecaa00;
+	}
+
+	.block8 ul {
+		background: none;
+	}
+	.block8 ul li {
+		margin: 0 auto 20px !important;
+		width: 96%;
+	}
+	.block8 ul li:nth-child(1){background: url("../images/b7-img1.png"/*tpa=https://hottest-goodies.com/jointcure/lp2/VT/images/b7-img1.png*/) no-repeat 50% 0}
+	.block8 ul li:nth-child(2){background: url("../images/b7-img2.png"/*tpa=https://hottest-goodies.com/jointcure/lp2/VT/images/b7-img2.png*/) no-repeat 50% 0}
+	.block8 ul li:nth-child(3){background: url("../images/b7-img3.png"/*tpa=https://hottest-goodies.com/jointcure/lp2/VT/images/b7-img3.png*/) no-repeat 50% 0}
+
+	.block10 {
+		margin-top: 40px;
+	}
+	.block10__right {
+		width: 96%;
+		margin-top: 20px;
+	}
+	.block4::before{
+		background: #ecaa00;
+	}
+	.block4__bottom{
+		background: #ecaa00;
+	}
+	.block4__bottom_name{
+		color: #188bcc;
+	}
+	.block4__title{
+		color: #188bcc;
+	}
+	
+	main{
+		background: transparent !important;
+	}
+	.block1__left{
+		display: none;
+	}
+	.block1_right-top{
+		display: none;
+	}
+	.block6 ul{
+		flex-direction: column;
+		align-items: center;
+	}
+	
+	.imlogo{
+		display: none;
+	}
+	.block1__body::before{
+		display: none;
+	}
+	.block10__left::before{
+		left: 21px;
+		top: -5px;
+		height: 418px;
+	}
+	.block10__left{
+		padding: 0;
+	}
+	.block10__price{
+		margin-right: 0;
+	}
+	.block10__sale{
+		margin-right: -243px;
+	}
+	
+	.block6 .wrapper{
+		padding: 40px 0 0 0;
+	}
+	.block10__title{
+		margin-right: 0;
+	}
+	#buyForm button{
+		font-size: 25px;
+		margin-bottom: 30px!important;
+	}
+	
+}
+@media only screen and (max-width: 480px) {
+
+	.block10 .wrapper::before{
+		display: none;
+	}
+	.block10__title {
+		text-align: center;
+		font-size: 22px;
+		margin-right: -15px;
+	}
+	.block10__right {
+		margin: 40px auto 0;
+	}
+	.block10__left{
+		margin-left: 10px;
+	}
+	.block10__left::before{
+		left: -20px;
+		top: 28px;
+		height: 330px;
+	}
+	.block10__price{
+		height: 60px;
+	}
+	.block10__price .newprice{
+		font-size: 23px;
+		padding: 0 9px;
+		margin-top: -3px;
+	}
+	.block10__price .oldprice{
+		font-size: 18px;
+		padding: 0 12px;
+		margin-top: -17px;
+	}
+	.block10__sale{
+		margin-top: 60px;
+		margin-right: -250px;
+	}
+	.block10 .wrapper{
+		padding: 30px 10px;
+	}
+	#buyForm input{
+		margin-bottom: 20px;
+	}
+	.block10-form{
+		padding: 1px 10px;
+	}
+	#buyForm button{
+		margin-bottom: 30px !important;
+	}
+	#buyForm label{
+		font-size: 23px;
+	}
+}
+@media only screen and (max-width: 380px) {
+	.block3__list ul li {
+		width: 100%;
+	}
+}
+.productfont{
+	color: #1586c8;
+}
+.block10__sale span{
+	margin-right: 10px;
+}
+.doctorasia{
+	position: absolute;
+	z-index: 9;
+	right: -4%;
+	bottom: -82px;
+	width: 132px;
+}
+.toparrow{
+	position: absolute;
+	bottom: 108px;
+	z-index: 999;
+	left: 129px;
+	width: 0; 
+	height: 0; 
+	border-top: 20px solid transparent;
+	border-bottom: 20px solid transparent;
+	border-right:20px solid #fff; 
+	transform: rotate(-159deg);
+}
+.weirdlistitem{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+.block1__right ul li.weirdlistitem{
+	background: none;
+	padding: 5px 0;
+	padding-top: 41px;
+}
+.weirdlistitem span{
+	background: transparent url("../images/img8.4blue.png"/*tpa=https://hottest-goodies.com/jointcure/lp2/VT/images/img8.4blue.png*/) left 0 no-repeat;
+    background-size: contain;
+    text-align: center;
+    height: 76px;
+    width: 88px;
+    padding: 7px;
+    color: #55bce7;
+    font-size: 15px;
+}
+.weirdlistitem span.labelorange{
+	background: transparent url("../images/div.block10__price2.png"/*tpa=https://hottest-goodies.com/jointcure/lp2/VT/images/div.block10__price2.png*/) left 0 no-repeat;
+	background-size: contain;
+}
+.smallscreenblock{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
+.smallheader{
+	width: 100%;
+	text-align: center;
+	background: #1481c4;
+	color: #ecaa00;
+	font-size: 27px;
+	padding: 20px;
+	margin-top: 0;
+}
+.productpart{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
+.productpart{
+	color: #0e76bc;
+	padding: 20px;
+}
+.productpart p{
+	margin: 0;
+	font-size: 24px;
+}
+.productpart img{
+	width: 60%;
+}
+.smallnewprice{
+	color: #ecaa00;
+	font-weight: 700;
+}
+.productfonty{
+	color: #ecaa00;
+}
+a.smallbutton{
+	width: 70%;
+	padding: 20px;
+	background-color: #ff7f26;
+	border-radius: 10px;
+	color: #fff;
+	font-size: 24px;
+	text-decoration: none;
+	cursor: pointer;
+	font-weight: 700;
+	margin-top: 10px;
+}
+@media(min-width: 641px){
+	.doctorasia{
+		display: none;
+	}
+	.toparrow{
+		display: none;
+	}
+	.weirdlistitem{
+		display: none;
+	}
+	.smallscreenblock{
+		display: none;
+	}
+	
+}
+@media(min-width: 999px){
+	.imlogo {
+	    display: block;
+	    position: absolute;
+	    bottom: 0;
+	    width: 45%;
+	    left: 40%;
+	    margin-left: -131px;
+	}
+	.block1__price span{
+		width: 40%;
+	}
+}
+@media(min-width: 1000px){
+	.block1__right{
+		float: right;
+		width: 325px;
+	}
+	.block1__left{
+		width: 350px;
+
+	}
+	.block1__left{
+		margin-left: -56px;
+	}
+}
+@media(max-width: 410px){
+	.doctorasia{
+		bottom: -103px;
+	}
+}
+.ac_footer {
+    position: relative;
+    top: 10px;
+    height: 0;
+    text-align: center;
+    margin-bottom: 70px;
+    color: #178bcb;
+}
+
+.ac_footer a {
+    color: #178bcb;
+}
+
+img[height="1"],
+img[width="1"] {
+    display: none !important;
+}
+
+.away{
+	margin-left: 15px;
+}
+#right, #left{
+	position: absolute;
+	top: 41%;
+	transform: translateY(-50%);
+	z-index: 999;
+	width: 35px;
+}
+#right{
+	right: -37px;
+}
+#left{
+	left: -37px;
+}
+@media(min-width: 950px){
+	#right, #left{
+		display: none;
+	}
+	.block10__sale p{
+		display: none;
+	}
+}
+@media(max-width: 1001px){
+	.block2__bottom .wrapper::before{
+		top: -88%;
+	}
+}

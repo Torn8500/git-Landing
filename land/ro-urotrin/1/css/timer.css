@@ -1,0 +1,89 @@
+.timer {
+      text-align: center;
+    display: block;
+    margin:0 auto 10px auto;
+    font-family: 'Exo 2';
+}
+.white {
+  color: #fff;
+}
+.sale-end-text {
+  color: #000;
+  font-size: 16px;
+  line-height: 30px;
+  font-family: 'GothamPro';
+  text-align: center;
+}
+ .timer .block {
+    display: inline-block;
+    width: 55px;
+    height: 55px;
+    text-align: center;
+    vertical-align: top;
+    border-radius: 5px;
+    background: #1e949d;
+    -webkit-box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.2);
+    margin: 0 3px;
+    margin-bottom: 5px;
+  }
+   .timer .block .rect {
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+    line-height: 58px;
+    width: 55px;
+    font-family: 'Roboto', sans-serif; font-weight: 700; 
+}
+    .timer .block label {
+      font-size: 14px;
+      text-align: center;
+      margin: 0;
+      color: #232323;
+      font-family: 'GothamPro';
+    }
+    .timer-dots {
+      margin: 0;
+      display: inline-block;
+      font-size: 32px;
+      color: #333333;
+      font-weight: 700;
+      line-height: 46px;
+    }
+    .rect.secs {
+      color: #fff;
+    }
+    
+/***   Timer 2 ****/
+
+.bl-clock-ft-p {
+    margin-top: 40px;
+}
+
+/***   Timer 3 ****/
+
+.clock-ft-pa {
+    margin-top: 50px;
+}
+.ft-clk {
+    text-align: center;
+}
+.fr-clk{
+  float: left;
+}
+.timer .block-1 label {
+    font-size: 14px;
+    text-align: center;
+    margin: 0;
+    color: #fff;
+    font-family: 'GothamPro';
+}
+.timer .block-1 {
+    background: #fff;
+}
+.timer .block .rect-1 {
+    color: #1e949d;
+}
+.timer .block .rect-2 {
+    color: #f44336;
+}

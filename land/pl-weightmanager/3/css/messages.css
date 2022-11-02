@@ -1,0 +1,124 @@
+/* Errors */
+.formError, label.error {
+	font-size: 10px;
+	color: red;
+	margin-bottom: 10px;
+	width: 250px;
+	display: block;
+}
+.fieldWithErrors {
+	display: inline;
+}
+
+#errorExplanation {
+	width: 400px;
+	border: 2px solid #CF0000;
+	padding: 5px;
+	margin: 5px;
+	background-color: #f0f0f0;
+	background-color: #FCC;
+	border: solid 1px #C66;
+}
+
+#errorExplanation h2 {
+	text-align: left;
+	font-weight: bold;
+	padding: 5px 5px 5px 15px;
+	font-size: 12px;
+	margin: 0px;
+	background-color: #c00;
+	color: #fff;
+	display: none;
+}
+
+#errorExplanation p {
+	color: #333;
+	margin: 5px 5px 5px 5px;
+	padding: 0;
+	font-weight: 900;
+}
+
+#errorExplanation ul {
+	margin: 10px 0 0 0;
+	padding: 0;
+	padding-left: 30px;
+}
+
+#errorExplanation ul li {
+	font-size: 12px;
+	list-style: disc;
+}
+
+.fieldWithErrors input, input.error {
+	border: 2px solid #C24949;
+	background: #FFBCBC;
+	-webkit-box-shadow: inset 0px 0px 16px rgba(255, 99, 70, 1);
+	-moz-box-shadow: inset 0px 0px 16px rgba(255, 99, 70, 1);
+	box-shadow: inset 0px 0px 16px rgba(255, 99, 70, 1);
+}
+
+/* Notice and Error */
+#flash_notice, #flash_error {
+	padding: 5px 8px;
+	margin: 10px 0;
+	width: 70%;
+	color: black;
+}
+
+#flash_notice {
+	background-color: #CFC;
+	border: solid 1px #6C6;
+}
+
+#flash_error {
+	background-color: #FCC;
+	border: solid 1px #C66;
+}
+#flash_error ul {
+	padding-left: 30px;
+}
+
+/* Confident window */
+.confident-link{cursor:pointer;font-size:12px;line-height:12px;text-decoration:underline;margin:10px 0 0;}
+.confident-link:hover{text-decoration:none;}
+.hidden-conf{display:none;}
+.conf-overlay{position: fixed;width:100%;height:100%;top:0;left:0;z-index:9999;background:#000;cursor:pointer;-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";filter: alpha(opacity=90);-khtml-opacity: 0.9;opacity: 0.9;}
+.conf-info{position: relative;cursor: default;max-width: 800px;padding: 30px 30px;color: #000;z-index: 9999;text-align: left;background: #fff;border-radius: 6px;position: fixed;top: 8%;left: 50%;margin: 0 0 0 -420px;}
+.conf-info .conf-head{font:30px/30px 'arial', sans-serif;margin:0 0 16px;}
+.conf-info h5{font:bold 18px/18px 'arial', sans-serif;margin:16px 0 6px;}
+.conf-info p{font:13px/15px 'arial', sans-serif;margin:0 0 8px;}
+.closeconf-but{position:absolute;top:20px;right:20px;height:29px;width:29px;cursor:pointer;background:url("../html/close-conf.png.html")/*tpa=http://pl3.slim4vit.com/images/close-conf.png.html*/ no-repeat;}
+
+body.loading{height:100%;overflow:hidden;}
+#loading {display:none;width: 100%;height: 100%;top: 0px;left: 0px;position: fixed;background-color: #fff;z-index: 9999;text-align: center;}
+.loading #loading{display:block;}
+.loading-image { position: absolute;top: 20%;left:50%;margin:0 0 0 -32px;z-index: 99999;}
+.suggestions-wrapper{display:none !important;}
+	
+@media only screen and (max-width: 1002px){
+	.conf-info{
+	    padding:20px;
+		max-width: 600px;
+		margin: 0 0 0 -300px;
+	}
+	.conf-info h5{font:bold 16px/16px 'arial', sans-serif;margin:16px 0 6px;}
+	#rh-snippet, #rc-connect{display: none !important;}
+}
+@media only screen and (max-width: 768px){
+	.conf-info{
+		max-width: 500px;
+		margin: 0 0 0 -250px;
+	}
+}
+@media only screen and (max-width: 640px){
+	.conf-info{
+		max-width: 400px;
+		margin: 0 0 0 -200px;
+	}
+}
+@media only screen and (max-width: 480px){
+	.conf-info{
+		max-width: 280px;
+		margin: 0 0 0 -140px;
+	}
+}

@@ -1,0 +1,18 @@
+
+
+@font-face {
+font-family: 'MuseoSansCyrl300';
+font-style: normal;
+font-weight: normal;
+src: local('../fonts/MuseoSansCyrl300'), url('../fonts/MuseoSansCyrl_300.woff') format('woff');
+}
+
+
+@font-face {
+  font-family: 'PeaceSans';
+  src: url('../fonts/PeaceSans.otf')  format('opentype'),
+	     url('../fonts/PeaceSans.woff') format('woff'), url('../fonts/PeaceSans.ttf')  format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+

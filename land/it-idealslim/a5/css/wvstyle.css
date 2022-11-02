@@ -1,0 +1,232 @@
+.menu-wrap {
+    width: 100%;
+    background-color: #f5f5f5;
+    position: fixed;
+    overflow: hidden;
+    height: 40px;
+    z-index: 2000;
+}
+
+.menu_content {
+    top: 5px;
+    width: 100%;
+}
+
+.btn_close {
+    top: 5px;
+    right: 20px;
+}
+
+.menu {
+    height: 40px;
+}
+
+#menu {
+    position: fixed;
+    margin-top: 35px;
+    z-index: 1000;
+}
+
+/*sleeper*/
+
+.sleeper {
+    background-image: url("../jpg/sleeper-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: 100% 0;
+    -webkit-background-size: auto 100%;
+    background-size: auto 100%;
+}
+
+.info-block {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.info-blocks {
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.info-block__ico {
+    max-width: 80px;
+    margin-right: 20px;
+}
+
+.wrap-content {
+    padding-top: 110px;
+    padding-bottom: 110px;
+}
+
+.sec-pretitle {
+    font-size: 32px;
+}
+
+/*compositions*/
+.composition {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.compos {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 18%;
+    padding-top: 200px !important;
+}
+
+.compos-name {
+    margin-bottom: 15px;
+}
+
+.composition1 {
+    background: url("../jpg/compos1.jpg") no-repeat center top;
+}
+
+.composition2 {
+    background: url("../jpg/compos2.jpg") no-repeat center top;
+}
+
+.composition3 {
+    background: url("../jpg/compos3.jpg") no-repeat center top;
+}
+
+.composition4 {
+    background: url("../jpg/compos4.jpg") no-repeat center top;
+}
+
+.composition5 {
+    background: url("../jpg/compos5.jpg") no-repeat center top;
+}
+
+.composition6 {
+    background: url("../jpg/compos1.jpg") no-repeat center top;
+}
+
+/*invest*/
+.invest {
+    padding-top: 70px;
+    padding-bottom: 50px;
+    background-color: #efefef;
+}
+
+.invest .wrap-content {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.invest .info-block {
+    margin-bottom: 25px;
+}
+
+.invest .info-block__ico {
+    max-width: 120px;
+
+}
+
+@media (max-width: 992px) {
+    .sleeper {
+        background-position: 0 0;
+        -webkit-background-size: 100%;
+        background-size: auto 100%;
+    }
+
+    .compos {
+        width: 30%;
+        margin: 20px 10px;
+    }
+
+    .composition {
+        margin: 0 30px;
+    }
+
+    .menu {
+        top: 0;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .section1 {
+        margin-top: -10px;
+    }
+}
+
+@media (max-width: 660px) {
+}
+
+.compos {
+    width: 40%;
+}
+
+@media (max-width: 540px) {
+    .menu {
+        top: 10px;
+        right: 14px;
+    }
+
+    .compos {
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        align-items: center;
+    }
+
+    .menu {
+        top: 0;
+        right: 10px
+    }
+}
+
+@media (max-width: 480px) {
+    .pack-block {
+        position: relative;
+        top: 450px;
+    }
+
+    .pluses-block {
+        position: relative;
+        top: 430px;
+    }
+
+    .form-block {
+        position: relative;
+        top: -409px;
+    }
+
+    .pack-block {
+    }
+
+    .main-header {
+        top: 470px;
+        position: relative;
+    }
+
+}
+
+@media (max-width: 350px) {
+    .section1{
+        margin-top: 0;
+        padding-top: 0;
+    }
+
+    .main-header {
+        top: 450px;
+    }
+}
+
+@media (min-width: 320px) {
+    .pack-block {
+        top: 450px;
+    }
+
+}
+
+
+
+

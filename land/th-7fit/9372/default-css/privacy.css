@@ -1,0 +1,211 @@
+html,
+body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.wrap_block_more_info {
+    padding-top: 40px;
+    padding-bottom: 20px;
+    margin: 0px;
+    background: #1d3035;
+    min-height: 100%;
+}
+
+.block_more_info {
+    width: 800px;
+    margin: 0px auto;
+    background: #fff;
+    font-family: Arial;
+    padding: 20px 40px 40px 40px;
+    border: 1px solid #DADADA;
+    line-height: 20px;
+}
+
+.block_more_info h1 {
+    color: #1d3035;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    font-size: 32px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.block_more_info p {
+    font-weight: normal;
+}
+
+.block_more_info b {
+    font-weight: bold;
+}
+
+.block_more_info ol {
+    list-style: decimal;
+    padding: 0 10px;
+}
+
+.block_more_info .s1 {
+    font-style: italic;
+    text-align: center;
+    margin: 40px 0 0 0;
+    font-weight: bold !important;
+}
+
+.block_more_info h2 {
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 26px;
+    margin-bottom: 15px;
+}
+
+.block_more_info OL {
+    counter-reset: item
+}
+
+.block_more_info ul{
+    padding-left: 20px;
+}
+
+.block_more_info LI {
+    display: block;
+    text-align: justify;
+}
+
+/*.block_more_info LI:before {
+    content: counters(item, ".") " ";
+    counter-increment: item;
+    margin-left: -10px;
+}*/
+
+.europe {
+		counter-reset: list;
+}
+.europe h2:before {
+		content: counter(list) ") ";
+		counter-increment: list;
+}
+
+ul li {
+	list-style-type: none;
+}
+ul li::before {
+	content: '• ';
+}
+
+@media screen and (max-width: 900px) {
+    .block_more_info {
+        width: 700px;
+        margin: 0px auto;
+        background: #fff;
+        font-family: Arial;
+        padding: 20px 40px 40px 40px;
+        border: 1px solid #DADADA;
+        line-height: 20px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .block_more_info {
+        width: 600px;
+        margin: 0px auto;
+        background: #fff;
+        font-family: Arial;
+        padding: 20px 40px 40px 40px;
+        border: 1px solid #DADADA;
+        line-height: 20px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .block_more_info {
+        width: 500px;
+        margin: 0px auto;
+        background: #fff;
+        font-family: Arial;
+        padding: 20px 40px 40px 40px;
+        border: 1px solid #DADADA;
+        line-height: 20px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .block_more_info {
+        width: 398px;
+        margin: 0px auto;
+        background: #fff;
+        font-family: Arial;
+        padding: 20px 40px 40px 40px;
+        border: 1px solid #DADADA;
+        line-height: 20px;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .block_more_info h1 {
+        color: #1d3035;
+        margin-bottom: 30px;
+        margin-top: 20px;
+        font-size: 24px;
+        text-align: center;
+        font-weight: bold;
+    }
+    .block_more_info {
+        width: 260px;
+        margin: 0px auto;
+        background: #fff;
+        font-family: Arial;
+        padding: 20px 40px 40px 40px;
+        border: 1px solid #DADADA;
+        line-height: 20px;
+    }
+}
+
+@media screen and (max-width: 359px) {
+    .block_more_info h1 {
+        color: #1d3035;
+        margin-bottom: 30px;
+        margin-top: 20px;
+        font-size: 19px;
+        text-align: center;
+        font-weight: bold;
+    }
+    .block_more_info {
+        width: 200px;
+        margin: 0px auto;
+        background: #fff;
+        font-family: Arial;
+        padding: 20px 40px 40px 40px;
+        border: 1px solid #DADADA;
+        line-height: 20px;
+    }
+    p {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 319px) {
+    .block_more_info h1 {
+        color: #1d3035;
+        margin-bottom: 30px;
+        margin-top: 20px;
+        font-size: 17px;
+        text-align: center;
+        font-weight: bold;
+    }
+    .block_more_info {
+        width: 185px;
+        margin: 0px auto;
+        background: #fff;
+        font-family: Arial;
+        padding: 20px 20px 40px 20px;
+        border: 1px solid #DADADA;
+        line-height: 20px;
+    }
+    p {
+        font-size: 15px;
+    }
+    span.font_size {
+        font-size: 12px;
+    }
+}

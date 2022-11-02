@@ -1,0 +1,308 @@
+.popup_10s {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 65%;
+  height: auto;
+  background-color: #fff;
+  z-index: 11;
+  display: flex;
+  flex-wrap: wrap;
+  -webkit-box-shadow: 10px 10px 22px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 22px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 22px 0px rgba(0, 0, 0, 0.75);
+}
+
+.popup_10s .right button.link {
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.left_img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bg_10s {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  backdrop-filter: blur(5px);
+  z-index: 10;
+}
+
+.popup_10s .left {
+  width: 40%;
+  height: auto;
+  background-color: #F2E5DF;
+  clip-path: polygon(100% 17%, 95% 13%, 100% 9%, 100% 0, 0 0, 0% 100%, 100% 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup_10s .right {
+  width: 60%;
+  min-height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  flex-direction: column;
+  padding: 50px 0px;
+}
+
+.popup_10s .right h1 {
+  font-size: 35px !important;
+  text-transform: uppercase;
+  color: #FFB200;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.popup_10s .right p {
+  font-size: 16px !important;
+  text-align: center;
+  font-weight: 500;
+}
+
+.popup_10s .right img {
+  border-bottom: 3px solid black;
+  padding: 0px 30px 15px 30px;
+  margin-bottom: 30px;
+}
+
+.img-fluid {
+  width: 60%;
+  height: auto;
+}
+
+.popup_10s .leafright {
+  content: url(../png/leafright.png);
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.popup_10s .leafleft {
+  content: url(../png/leafleft.png);
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.popup_10s strong {
+  font-weight: 900;
+}
+
+.popup_10s p span {
+  text-transform: uppercase;
+  color: #40A629;
+  font-weight: bold;
+}
+
+.popup_10s .right button {
+  border: none;
+  background-color: #fff;
+  margin: 5px 0;
+}
+
+.popup_10s .right .link:hover {
+  background-color: transparent !important;
+  color: black !important;
+}
+
+.popup_10s .right button.btn-2 {
+  background-color: #40A629;
+  border: none;
+  font-size: 24px !important;
+  color: white;
+  padding: 20px 30px;
+  border-radius: 15px;
+  margin-top: 50px;
+  font-weight: bold;
+  -webkit-box-shadow: 0px 9px 0px 0px rgba(17, 73, 28, 1);
+  -moz-box-shadow: 0px 9px 0px 0px rgba(17, 73, 28, 1);
+  box-shadow: 0px 9px 0px 0px rgba(17, 73, 28, 1);
+}
+
+.popup_10s .decline {
+  text-decoration: none;
+  margin-top: 20px;
+  font-size: 18px !important;
+  color: #666666;
+}
+
+.popup_10s a.decline:hover {
+  color: #666666;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.d-none {
+  display: none;
+}
+
+.popup_10s button a {
+  color: white;
+  text-decoration: none;
+}
+
+.popup_10s button a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.red {
+  color: red;
+}
+
+@media(max-width: 1235px) {
+  .popup_10s {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    height: 100%;
+    background-color: #fff;
+    z-index: 11;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .d-none {
+    display: none;
+  }
+
+  .bg_10s {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    backdrop-filter: blur(5px);
+    z-index: 10;
+  }
+
+  .popup_10s .left {
+    display: none;
+  }
+
+  .popup_10s .right {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    flex-direction: column;
+    padding: 50px 0px;
+  }
+
+  .popup_10s .right h1 {
+    text-transform: uppercase;
+    color: #FFB200;
+    margin-top: 20px;
+    margin-bottom: 0;
+    font-weight: bold;
+  }
+
+  .popup_10s .right p {
+    text-align: center;
+    font-weight: 500;
+  }
+
+  .popup_10s .right img {
+    border-bottom: 3px solid black;
+    padding: 0px 30px 30px 30px;
+  }
+
+  .img-fluid {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .popup_10s .leafright {
+    display: none;
+    content: url(../png/leafright.png);
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+
+  .popup_10s .leafleft {
+    display: none;
+    content: url(../png/leafleft.png);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+
+  .popup_10s .bar {
+    color: white;
+    background-color: black;
+    width: 100%;
+    padding: 15px 0px;
+    margin-top: 15px;
+  }
+
+  .popup_10s .bar p {
+    color: white;
+  }
+
+  .popup_10s .bar strong {
+    color: white;
+  }
+
+  .popup_10s strong {
+    font-weight: 900;
+  }
+
+  .popup_10s p span {
+    text-transform: uppercase;
+    color: #40A629;
+    font-weight: bold;
+  }
+
+  .popup_10s .right button {
+    border: none;
+    background-color: #fff;
+    margin: 5px 0;
+    ;
+  }
+
+  .popup_10s .right button.btn-2 {
+    background-color: #40A629;
+    border: none;
+    color: white;
+    padding: 20px 30px;
+    border-radius: 15px;
+    margin-top: 50px;
+    font-weight: bold;
+    -webkit-box-shadow: 0px 9px 0px 0px rgba(17, 73, 28, 1);
+    -moz-box-shadow: 0px 9px 0px 0px rgba(17, 73, 28, 1);
+    box-shadow: 0px 9px 0px 0px rgba(17, 73, 28, 1);
+  }
+
+  .popup_10s .decline {
+    text-decoration: none;
+    padding: 10px 0;
+    color: #666666;
+  }
+
+  .popup_10s a.decline:hover {
+    color: #666666;
+    text-decoration: none;
+    cursor: pointer;
+  }
+}

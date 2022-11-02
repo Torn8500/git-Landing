@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440px" height="203px" viewBox="0 0 1440 203" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>a7-bg</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="1440" height="203"></rect>
+    </defs>
+    <g id="Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="cpa-97_design" transform="translate(0.000000, -3496.000000)">
+            <g id="✅-art7" transform="translate(0.000000, 3496.000000)">
+                <g id="Title">
+                    <g id="a7-bg">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Rectangle" fill="#DAF7FF" xlink:href="#path-1"></use>
+                        <circle id="Oval" fill="#E9FCFF" mask="url(#mask-2)" cx="1155" cy="-17" r="89"></circle>
+                        <circle id="Oval-Copy-3" fill="#E9FCFF" mask="url(#mask-2)" cx="390.5" cy="164" r="230.5"></circle>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

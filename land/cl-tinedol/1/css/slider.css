@@ -1,0 +1,215 @@
+#slider-wrap {
+    /* Оболочка слайдера и кнопок */
+    margin: 0 auto;
+}
+
+div#slider button {
+    border: none;
+    cursor: pointer;
+    top: 50%;
+    width: 28px;
+    height: 45px;
+    margin-top: -30px;
+    z-index: 1;
+}
+
+body {
+    font-family: Tahoma;
+}
+
+#slider {
+    /* Оболочка слайдера */
+    width: 100%;
+    height: 267px;
+    overflow: hidden;
+    position: relative;
+}
+
+.slide {
+    width: 100%;
+    height: 100%;
+    /*webkit-box-shadow: 0px 9px 30px 9px rgba(66, 41, 25, 0.1);*/
+    /*-moz-box-shadow: 0px 9px 30px 9px rgba(66, 41, 25, 0.1);*/
+    /*box-shadow: 0px 9px 30px 9px rgba(66, 41, 25, 0.1);*/
+    padding: 20px 50px 0;
+}
+
+.slide_img {
+    float: left;
+    padding-top: 25px;
+    padding-left: 12px;
+}
+
+.slide_text {
+    font-size: 17px;
+    line-height: 21px;
+    padding-left: 175px;
+}
+
+div#slider {
+    /*webkit-box-shadow: 0px 9px 30px 9px rgba(66, 41, 25, 0.1);*/
+    /*-moz-box-shadow: 0px 9px 30px 9px rgba(66, 41, 25, 0.1);*/
+    /*box-shadow: 0px 9px 30px 9px rgba(66, 41, 25, 0.1);*/
+}
+
+.sli-links {
+    /* Кнопки смены слайдов */
+    margin-top: 10px;
+    text-align: center;
+}
+
+.sli-links .control-slide {
+    margin: 2px;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    overflow: hidden;
+    text-indent: -9999px;
+    /*background: url('../img/radioBg.png') center bottom no-repeat;*/
+}
+
+.sli-links .control-slide:hover {
+    cursor: pointer;
+    background-position: center center;
+}
+
+.sli-links .control-slide.active {
+    background-position: center top;
+}
+
+#prewbutton,
+#nextbutton {
+    /* Ссылка "Следующий" и "Педыдущий" */
+    display: block;
+    width: 28px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    overflow: hidden;
+    text-indent: -999px;
+    /*background: url('../img/prev.png') center no-repeat;*/
+    opacity: 0.8;
+    z-index: 3;
+    outline: none !important;
+}
+
+#prewbutton {
+    left: 10px;
+}
+
+#nextbutton {
+    right: 10px;
+    /*background: url('../img/next.png') center no-repeat;*/
+}
+
+.slide_name {
+    font-size: 22px;
+    line-height: 24px;
+    font-family: "PTSansBold", sans-serif;
+    padding-top: 20px;
+}
+
+div#slider button {
+    border: none;
+    cursor: pointer;
+}
+
+/*@media screen and (max-width: 999px) {*/
+    /*.slide {*/
+        /*padding: 35px 50px 40px;*/
+        /*width: 650px;*/
+    /*}*/
+    /*#slider-wrap {*/
+        /* Оболочка слайдера и кнопок */
+        /*width: 750px;*/
+    /*}*/
+    /*#slider {*/
+        /*height: 371px;*/
+    /*}*/
+/*}*/
+
+/*@media screen and (max-width: 767px) {*/
+    /*.slide {*/
+        /*padding: 35px 15px 40px;*/
+        /*width: 440px;*/
+    /*}*/
+    /*#slider-wrap {*/
+        /* Оболочка слайдера и кнопок */
+        /*width: 470px;*/
+    /*}*/
+    /*#slider {*/
+        /*height: 637px;*/
+    /*}*/
+    /*.slide_img {*/
+        /*float: none;*/
+        /*padding-top: 1px;*/
+        /*padding-left: 1px;*/
+        /*padding-bottom: 15px;*/
+        /*width: 150px;*/
+        /*margin-left: auto;*/
+        /*margin-right: auto;*/
+    /*}*/
+    /*.slide_text {*/
+        /*padding-left: 1px;*/
+        /*text-align: center;*/
+    /*}*/
+    /*div#slider-wrap {*/
+        /*webkit-box-shadow: 0px 9px 30px 9px rgba(66, 41, 25, 0.1);*/
+        /*-moz-box-shadow: 0px 9px 30px 9px rgba(66, 41, 25, 0.1);*/
+        /*box-shadow: 0px 9px 30px 9px rgba(66, 41, 25, 0.1);*/
+    /*}*/
+    /*div#slider {*/
+        /*webkit-box-shadow: none;*/
+        /*-moz-box-shadow: none;*/
+        /*box-shadow: none;*/
+    /*}*/
+    /*#nextbutton {*/
+        /*right: 10px;*/
+        /*background: url('../img/next.png') bottom no-repeat;*/
+    /*}*/
+    /*#prewbutton {*/
+        /*background: url('../img/prev.png') bottom center no-repeat;*/
+    /*}*/
+    /*.sli-links {*/
+        /*margin-top: -34px;*/
+        /*text-align: center;*/
+        /*padding-bottom: 30px;*/
+        /*position: relative;*/
+        /*z-index: 99999;*/
+        /*width: 100px;*/
+        /*margin: 0 auto;*/
+        /*margin-top: -34px;*/
+    /*}*/
+    /*div#slider button {*/
+        /*top: auto;*/
+        /*bottom: 0;*/
+    /*}*/
+/*}*/
+
+/*@media screen and (max-width: 479px) {*/
+    /*.slide {*/
+        /*padding: 35px 15px 65px;*/
+        /*width: 280px;*/
+    /*}*/
+    /*#slider-wrap {*/
+        /* Оболочка слайдера и кнопок */
+        /*width: 310px;*/
+    /*}*/
+    /*#slider {*/
+        /*height: 829px;*/
+    /*}*/
+/*}*/
+
+/*@media screen and (max-width: 319px) {*/
+    /*.slide {*/
+        /*padding: 35px 15px 65px;*/
+        /*width: 200px;*/
+    /*}*/
+    /*#slider-wrap {*/
+        /* Оболочка слайдера и кнопок */
+        /*width: 230px;*/
+    /*}*/
+    /*#slider {*/
+        /*height: 1042px;*/
+    /*}*/
+/*}*/

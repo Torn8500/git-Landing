@@ -1,0 +1,199 @@
+/* --------------------- reset meyer styles --------------------------- */
+html {
+    @include box-sizing();
+}
+*, *:before, *:after {
+    @include box-sizing(inherit);
+}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, menu, nav, section {
+  display: block;
+}
+audio,
+canvas,
+video {
+  @extend .inline-block;
+}
+audio:not([controls]) {
+  display: none;
+}
+
+
+ol, ul {
+  list-style: none;
+}
+
+ul ul,
+ul ol,
+ol ol,
+ol ul {
+  margin-bottom: 0;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a img {
+  border: 0;
+}
+
+/* --------------------- END reset meyer styles ---------------------- */
+
+
+
+hr {
+  border: 0px none;
+  background: none;
+  outline: none;
+  height: 0;
+  margin: 0;
+}
+
+[hidden] {
+  display: none;
+}
+
+
+button,
+input,
+select,
+textarea {
+  font-size: 100%;
+  margin: 0;
+  vertical-align: baseline;
+  *vertical-align: middle;
+}
+
+button,
+input {
+  line-height: normal;
+  *overflow: visible;
+}
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  cursor: pointer;
+  -webkit-appearance: button; // iphone style
+}
+
+input[type="image"],
+input[type="checkbox"],
+input[type="radio"] {
+  width: auto;
+  height: auto;
+  padding: 0;
+  margin: 3px 0;
+  *margin-top: 0; // IE7 line-height: normal;
+  border-radius: 0;
+  border: 0 \9; // IE9 and down
+}
+
+input[type=button],
+input[type=reset],
+input[type=submit] {
+  width: auto;
+  height: auto;
+}
+
+input[type=checkbox],
+input[type=radio] {
+  cursor: pointer;
+}
+
+textarea {
+  overflow: auto;
+  vertical-align: top;
+  height: auto;
+}
+
+select[multiple] {
+  height: inherit;
+  background-color: #fff;
+}
+
+input[type="file"] {
+  width: auto;
+  padding: initial;
+  line-height: initial;
+  border: initial;
+  background-color: #fff;
+  background-color: initial;
+  line-height: 18px \9;// Reset line-height for IE
+}
+
+
+select,
+input[type="file"] {
+  height: 28px;
+  // In IE7, the height of the select element cannot be changed by height, only font-size *margin-top: 4px;
+  // For IE7, add top margin to align select with labels line-height: 28px;
+}
+
+textarea {
+  height: auto;
+}
+
+
+input[type="hidden"] {
+  display: none;
+}
+
+input[type=file]:focus,
+input[type=checkbox]:focus,
+select:focus {
+  outline: 1px dotted #666;
+}
+
+input[type="image"] {
+  border: 0;
+}
+
+
+body{
+  /*font: 14px "PT Sans", 'Arial', sans-serif;*/
+}
+
+img{
+  max-width: 100%;
+}

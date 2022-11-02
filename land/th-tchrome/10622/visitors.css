@@ -1,0 +1,19 @@
+#visitors-panel{position:fixed;top:0;left:0;width:100%;z-index:10;background:#F1EDED;color:#000;font-family:Arial,"Helvetica Neue",Helvetica,sans-serif;font-size:16px;line-height:48px;height:48px}
+#visitors-panel .visitors-info{ position: relative; max-width:1024px; margin:7px auto 0;padding:0; padding-right: 150px;list-style:none;}
+#visitors-panel .visitors-info > li{width:33.3333333%;display:block;float:left;text-align:center; font-size: 12px;}
+#visitors-panel .visitors-info > li span{font-weight:700}
+#visitors-panel .vis-ico{display:inline-block;vertical-align: middle;width:32px;height:32px;line-height:32px}
+#visitors-panel .vis-ico img{vertical-align:middle}
+.buyers-notify{top:75px!important}
+@media all and (max-width: 768px) {
+#visitors-panel{display:none}
+}
+@media (min-width: 890px) {
+    #visitors-panel .visitors-info > li{font-size: 14px;}
+}
+@media (min-width: 960px) {
+    #visitors-panel .visitors-info{padding-right: 170px;}
+    #visitors-panel .visitors-info > li{font-size: 16px;}
+
+    .nav-btn {width: 165px;}
+}

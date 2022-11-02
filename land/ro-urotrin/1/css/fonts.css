@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900&amp;subset=cyrillic,cyrillic-ext,latin-ext');
+
+@font-face {
+  font-family: 'GothamPro-Medium';
+  src: url('../eot/gothampro-medium.eot#iefix') format('embedded-opentype'),  url('../html/gothampro-medium.html')  format('opentype'),
+         url('../woff/gothampro-medium.woff') format('woff'), url('../ttf/gothampro-medium.ttf')  format('truetype'), url('../svg/gothampro-medium.svg#GothamPro-Medium') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'GothamPro-Italic';
+  src: url('../eot/gothampro-italic.eot#iefix') format('embedded-opentype'),  url('../html/gothampro-italic.html')  format('opentype'),
+         url('../woff/gothampro-italic.woff') format('woff'), url('../ttf/gothampro-italic.ttf')  format('truetype'), url('../svg/gothampro-italic.svg#GothamPro-Italic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'GothamPro-Bold';
+  src: url('../eot/gothampro-bold.eot#iefix') format('embedded-opentype'),  url('../html/gothampro-bold.html')  format('opentype'),
+         url('../woff/gothampro-bold.woff') format('woff'), url('../ttf/gothampro-bold.ttf')  format('truetype'), url('../svg/gothampro-bold.svg#GothamPro-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'GothamPro';
+  src: url('../eot/gothampro.eot#iefix') format('embedded-opentype'), url('../woff/gothampro.woff') format('woff'), url('../ttf/gothampro.ttf')  format('truetype'), url('../svg/gothampro.svg#GothamPro') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}

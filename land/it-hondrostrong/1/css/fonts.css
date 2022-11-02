@@ -1,0 +1,68 @@
+@font-face {
+    font-family: 'bebas_neuelight';
+    src: url('../woff2/bebasneue_light-webfont.woff2') format('woff2'),
+         url('../woff/bebasneue_light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'pt_sansbold';
+    src: url('../woff2/pt_sans-web-bold-webfont.woff2') format('woff2'),
+         url('../woff/pt_sans-web-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'pt_sansitalic';
+    src: url('../woff2/pt_sans-web-italic-webfont.woff2') format('woff2'),
+         url('../woff/pt_sans-web-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'pt_sansregular';
+    src: url('../woff2/pt_sans-web-regular-webfont.woff2') format('woff2'),
+         url('../woff/pt_sans-web-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'robotoregular';
+    src: url('../woff2/roboto-regular-webfont.woff2') format('woff2'),
+         url('../woff/roboto-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'bebas_neuebold';
+    src: url('../woff2/bebasneue_bold-webfont.woff2') format('woff2'),
+         url('../woff/bebasneue_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}

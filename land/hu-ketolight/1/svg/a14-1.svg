@@ -1,0 +1,25 @@
+<svg id="Слой_1" data-name="Слой 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="102" height="102" viewBox="0 0 102 102">
+  <defs>
+    <linearGradient id="Безымянный_градиент" data-name="Безымянный градиент" x1="-250.74" y1="444.51" x2="-251.28" y2="443.73" gradientTransform="matrix(102, 0, 0, -102, 25654, 45352)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fae857"/>
+      <stop offset="1" stop-color="#f2cd2c"/>
+    </linearGradient>
+  </defs>
+  <title>a14-1</title>
+  <g id="Design">
+    <g id="cpa-97_design" data-name="cpa-97 design">
+      <g id="_-art14" data-name="✅-art14">
+        <g id="content">
+          <g id="_1" data-name="1">
+            <g id="Group-11">
+              <g id="a14-1">
+                <circle id="Oval" cx="51" cy="51" r="51" style="fill: url(#Безымянный_градиент)"/>
+                <polygon id="_1-2" data-name="1" points="49.09 20 56.29 20 56.29 62 48.01 62 48.01 28.76 40.09 30.98 38.05 23.9 49.09 20"/>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

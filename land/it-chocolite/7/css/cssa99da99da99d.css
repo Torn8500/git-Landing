@@ -1,0 +1,24 @@
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url(land/it-chocolite/7/ttf/cjzkeoubrn4kerxqtauh3acwcynf_cdxxwclxiixg1c.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Open Sans Bold'), local('OpenSans-Bold'), url(land/it-chocolite/7/ttf/k3k702zokiljc3wvjuplzinf5ufddttmlvmwujdhhgs.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Open Sans Italic'), local('OpenSans-Italic'), url(land/it-chocolite/7/ttf/xjajxh38i15wypjxxugmbp0eavxt0g0bientp43qt6e.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Open Sans Bold Italic'), local('OpenSans-BoldItalic'), url(land/it-chocolite/7/ttf/prmixeptr36kac0geaetxp_tkvowliotbr7epgfopf4.ttf) format('truetype');
+}

@@ -1,0 +1,30 @@
+@font-face {
+  font-family: 'Lobster';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lobster'), local('Lobster-Regular'), url(land/it-chocolite/7/ttf/9lpjgtnum1d8faz2bkjh2q.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Roboto Light'), local('Roboto-Light'), url(land/it-chocolite/7/ttf/dtphsbgpem2lvwcijz0p-a.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto'), local('Roboto-Regular'), url(land/it-chocolite/7/ttf/w5f8_sl0xfawnjxhgszjja.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Roboto Medium'), local('Roboto-Medium'), url(land/it-chocolite/7/ttf/uxzkqj-mimwle-xp2pdnaa.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Roboto Bold'), local('Roboto-Bold'), url(land/it-chocolite/7/ttf/bdhghleua-ndqcordpfxfw.ttf) format('truetype');
+}

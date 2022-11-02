@@ -1,0 +1,516 @@
+/* Popup */
+
+.comeback_popup {
+	position: absolute;
+	z-index: 300;
+	top: 20%;
+	left: 50%;
+	width: 828px;
+	margin-left: -414px;
+	background-color: #FFF;
+}
+
+.comeback_popup_exit {
+    position: absolute;
+    right: -35px;
+    top: -35px;
+    cursor: pointer;
+}
+
+.comeback_popup header {
+	position: relative;
+	padding: 23px 0;
+	font-weight: bold;
+	font-size: 24px;
+	color: #fff;
+	padding-left: 60px;
+	background-color: #f81752;
+}
+
+.comeback_popup__label {
+	position: absolute;
+	padding-top: 20px;
+	left: -28px;
+	top: -28px;
+	width: 81px;
+	height: 81px;
+	line-height: 100%;
+	border-radius: 50%;
+	background: url("../png/label_bg.png")/*tpa=http://pl3.slim4vit.com/img/label_bg.png*/ no-repeat left top;
+	color: #F81752;
+	text-align: center;
+}
+
+.comeback_popup__number {
+	font-size: 39px;
+}
+
+.comeback_popup__label sup {
+	vertical-align: top;
+	position: relative;
+	top: 4px;
+}
+
+.comeback_popup__label sup, .comeback_popup__name {
+	font-size: 13px;
+}
+
+.comeback_popup__left {
+	position: relative;
+	padding: 30px 0 30px 30px;
+	width: 50%;
+	float: left;
+}
+
+.comeback_popup__left__wrapper {
+	padding-right: 60px;
+}
+
+.comeback_popup__left:after {
+	content: "";
+	display: block;
+	width: 0; 
+	height: 0;
+	border-top: 8px solid transparent;
+	border-bottom: 8px solid transparent;
+	border-left: 8px solid #fff; 
+	position: absolute;
+	top: 24px;
+	right: -8px;
+}
+
+.comeback_popup__left h2 {
+	font-weight: bold;
+	line-height: 100%;
+	font-size: 24px;
+	margin: 0;
+}
+
+.comeback_popup__prices {
+	margin: 10px 85px 0 0;
+}
+
+.comeback_popup__prices__left {
+	float: left;
+	font-size: 15px;
+}
+
+.comeback_popup__container:after, .comeback_popup__prices:after, .comeback_popup__wrapper:after {
+	content: "";
+	display: block;
+	visibility: hidden;
+	clear: both;
+	height: 0;
+}
+
+.comeback_popup__prices__price__text {
+	margin-top: 5px;
+	font-size: 24px;
+	color: #f71751;
+	font-weight: bold;
+}
+
+.comeback_popup__prices__right {
+	float: right;
+	color: #929191;
+}
+
+.comeback_popup__prices__right .comeback_popup__prices__price__text {
+	position: relative;
+	color: #929191;
+	font-size: 20px;
+}
+
+.comeback_popup__prices__right .comeback_popup__prices__price__text:before {
+	content: '';
+    display: block;
+    position: relative;
+    top: 10px;
+    height: 2px;
+    width: 100%;
+    background-color: #FC2121;
+    -moz-transform: rotate(-7.5deg);
+    -o-transform: rotate(-7.5deg);
+    -webkit-transform: rotate(-7.5deg);
+    -ms-transform: rotate(-7.5deg);
+    transform: rotate(-7.5deg);
+}
+
+.comeback_popup__timer {
+	margin-top: 50px;
+}
+
+.comeback_popup__timer__title {
+	font-size: 15px!important;
+}
+
+.comeback_popup__timer__inner {
+	margin-top: 35px;
+}
+
+.number_block {
+	position: relative;
+	display: inline-block;
+	width: 68px;
+	height: 69px;
+	margin-right: 5px;
+	font-size: 50px;
+	color: #FFF;
+	line-height: 59px;
+	text-align: center;
+	background: url("../png/tm_block_bg.png")/*tpa=http://pl3.slim4vit.com/img/tm_block_bg.png*/ no-repeat left top;
+}
+
+.number_block:before {
+	display: inline-block;
+	position: absolute;
+	top: -50px;
+	left: 2px;
+	margin-bottom: 15px;
+	font-size: 13px;
+	color: #929191;
+}
+
+.timer__days:before {
+	content: "Дней";
+}
+
+.timer__hours:before {
+	content: "Часов";
+}
+
+.timer__minutes:before {
+	content: "Минут";
+}
+
+.timer__seconds:before {
+	content: "Секунд";
+}
+
+.comeback_popup__right {
+	width: 50%;
+	padding: 10px 40px;
+	height: 100%;
+	float: right;
+	background-color: #e6e6e6;
+}
+
+.comeback_popup__form h3 {
+	margin: 0 0 15px 0;
+	line-height: 100%;
+	font-size: 24px;
+}
+
+.comeback_popup__form input[type="text"], .comeback_popup__form select {
+	width: 100%;
+	height: 50px;
+	border-radius: 2px;
+	margin-bottom: 18px;
+	padding: 0 14px;
+	border: none;
+	outline: none;
+	box-shadow: inset 0 15px 15px -12px rgba(0,0,0,0.24);
+}
+
+.popup_order_button {
+	width: 100%;
+	background-color: #3FD012;
+	border: none;
+	padding: 17px 0 14px 0;
+	font-size: 24px;
+	color: #fff;
+	border-radius: 2px;
+    box-shadow: 0 0 11px rgba(42,139,11,0.49);
+	border-bottom: 3px solid rgba(49,164,14,1);
+}
+
+.popup_order_button:focus {
+	outline: none;
+}
+
+.popup_order_button:hover {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#57e219+0,44d413+47,3fd012+100 */
+	background: rgb(87,226,25); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(87,226,25,1) 0%, rgba(68,212,19,1) 47%, rgba(63,208,18,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  rgba(87,226,25,1) 0%,rgba(68,212,19,1) 47%,rgba(63,208,18,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  rgba(87,226,25,1) 0%,rgba(68,212,19,1) 47%,rgba(63,208,18,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#57e219', endColorstr='#3fd012',GradientType=0 ); /* IE6-9 */
+}
+
+.popup_order_button:active {
+	background: #31a40e;
+}
+
+.last_complect {
+	position: relative;
+	margin-top: 15px;
+}
+
+.last_complect span {
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+	line-height: 25px;
+	color: #fff;
+	font-weight: bold;
+	text-align: center;
+	border-radius: 50%;
+	background-color: #f81752;
+}
+
+.last_complect:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: -45px;
+    left: -31px;
+	width: 25px;
+	height: 58px;
+	background-image: url("../html/popup_arrow.png.html")/*tpa=http://pl3.slim4vit.com/css/popup_arrow.png.html*/;
+}
+
+/* New form */
+
+.comeback_popup__prices {
+	margin-right: 0;
+}
+
+.comeback_popup__prices_in {
+	position: relative;
+}
+
+.comeback_popup__prices_in:after {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 228px;
+	height: 192px;
+	background: url('../html/pack.png.html')/*tpa=http://pl3.slim4vit.com/css/pack.png.html*/ no-repeat right top;
+}
+
+.top_price {
+	font-size: 18px;
+	color: #929191;
+}
+
+.top_price:before {
+	content: "Старая цена";
+	display: block;
+	font-size: 15px;
+	color: #929191;
+}
+
+.bottom_price {
+	margin-top: 15px;
+	font-size: 20px;
+	padding: 5px 0 5px 30px;
+	color: #FFF;
+	background-color: #f81752;
+}
+
+.bottom_price:before {
+	content: "Цена со скидкой";
+	display: block;
+	font-size: 15px;
+	color: #FFF;
+}
+
+.comeback_popup__left {
+	padding-left: 0;
+}
+
+.comeback_popup__left__wrapper, .top_price, .comeback_popup__timer, .bottom_price {
+	padding-left: 30px;
+}
+
+.comeback_popup__wrapper {
+	display: table;
+}
+
+.comeback_popup__left {
+	display: table-cell;
+	float: none;
+}
+
+.comeback_popup__right {
+	display: table-cell;
+	float: none;
+}
+
+/* Adaptive */
+
+@media only screen and (max-width: 900px) {
+	.comeback_popup {
+		width: 80%;
+		top: 5%;
+		margin-left: -40%;
+	}
+
+	.comeback_popup__left, .comeback_popup__right {
+		float: none;
+		width: 100%;
+	}
+
+	.comeback_popup__left__wrapper, .comeback_popup__timer__inner {
+		text-align: center;
+	}
+
+	.comeback_popup__left:after {
+		display: none;
+	}
+
+	.comeback_popup__right {
+		position: relative;
+	}
+
+	.comeback_popup__right:before {
+		content: "";
+		display: block;
+		width: 0; 
+		height: 0;
+		border: 8px solid transparent;
+		border-top: 8px solid #fff;
+		position: absolute;
+		top: 0;
+		left: 50%;
+		margin-left: -4px;
+		
+	}
+
+	.comeback_popup__wrapper {
+	display: block;
+	}
+
+	.comeback_popup__left {
+		display: block;
+		float: left;
+	}
+
+	.comeback_popup__right {
+		display: block;
+		float: right;
+	}
+
+	.comeback_popup header {
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+
+	.comeback_popup__left {
+		padding-top: 10px;
+	}
+
+	.comeback_popup__prices {
+		margin-top: 10px;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+
+	.comeback_popup__left__wrapper {
+		padding-right: 0;
+	}
+
+	.comeback_popup__left h2 {
+		text-align: center;
+	}
+
+	.comeback_popup__left {
+		padding: 10px;
+	}
+	
+	.comeback_popup__right {
+		padding: 30px;
+	}
+
+	.comeback_popup__prices {
+		margin-right: 0;
+	}
+
+	.comeback_popup__timer {
+		margin-top: 60px;
+	}
+
+	.comeback_popup__left, .comeback_popup__right {
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+
+}
+
+@media only screen and (max-width: 500px) {
+	.comeback_popup__prices {
+		width: 170px;
+		text-align: center;
+		margin: 0 auto;
+	}
+
+	.comeback_popup__prices__left, .comeback_popup__prices__right {
+		float: none;
+		margin: 15px;
+	}
+
+	.comeback_popup__left {
+		padding: 15px;
+	}
+
+	.number_block {
+		width: 40px;
+		height: 40px;
+		background-size: 100%;
+		font-size: 20px;
+		line-height: 40px;
+	}
+
+	.number_block:before {
+	    top: -35px;
+	    font-size: 11px;
+	}
+
+	.comeback_popup__left__wrapper, .top_price, .comeback_popup__timer, .bottom_price {
+		padding-left: 0;
+	}
+
+	.comeback_popup__prices_in:after {
+		display: none;
+	}
+
+	.comeback_popup__timer {
+		margin-top: 20px;
+	}
+}
+
+/* Модальное окно */
+
+.modal_mouse_out {
+    z-index: 200;
+    overflow: auto;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-size: 14px;
+    color: #000;
+    text-align: justify;
+    background: rgba(0, 0, 0, 0.9);
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.modal_mouse_pop {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 191;
+    cursor: pointer;
+}
+
+.hide_forever{
+    display: none !important;
+}
+

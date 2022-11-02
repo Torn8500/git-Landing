@@ -1,0 +1,31 @@
+
+.form input{
+	width:  100%;
+	margin-bottom: 15px;
+	min-height: 40px;
+	padding: 0 20px;
+}
+.form button{
+	width:  100%;
+}
+.price__old{
+	color:  red;
+	font-size: 36px;
+	margin-right: 20px;
+	position: relative;
+	display: inline-block;
+}
+.price__old::before{
+	position: absolute;
+	content: "";
+	display: inline-block;
+	height: 3px;
+	top:  50%;
+	left:  50%;
+	transform: translate(-50%, -50%) rotate(-15deg);
+	width:  125%;
+	background: red;
+}
+.price__new{
+	font-size: 54px;
+}
