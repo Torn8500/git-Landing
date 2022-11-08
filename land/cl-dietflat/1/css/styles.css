@@ -2,75 +2,50 @@
   font-family: "Oswald";
   font-style: normal;
   font-weight: 400;
-  src: local(""),
-    url("../../external.html?link=https://static.infothroat.com/pages/429f92fe-3416-4b2a-8383-1ce94b565ff4/fonts/oswald-v36-latin-ext_latin_cyrillic-ext_cyrillic-regular.woff2")
-      format("woff2"),
-    url("../../external.html?link=https://static.infothroat.com/pages/429f92fe-3416-4b2a-8383-1ce94b565ff4/fonts/oswald-v36-latin-ext_latin_cyrillic-ext_cyrillic-regular.woff")
-      format("woff");
 }
 @font-face {
   font-family: "Oswald";
   font-style: normal;
   font-weight: 500;
-  src: local(""),
-    url("../../external.html?link=https://static.infothroat.com/pages/429f92fe-3416-4b2a-8383-1ce94b565ff4/fonts/oswald-v36-latin-ext_latin_cyrillic-ext_cyrillic-500.woff2")
-      format("woff2"),
-    url("../../external.html?link=https://static.infothroat.com/pages/429f92fe-3416-4b2a-8383-1ce94b565ff4/fonts/oswald-v36-latin-ext_latin_cyrillic-ext_cyrillic-500.woff")
-      format("woff");
 }
 @font-face {
   font-family: "Oswald";
   font-style: normal;
   font-weight: 600;
-  src: local(""),
-    url("../../external.html?link=https://static.infothroat.com/pages/429f92fe-3416-4b2a-8383-1ce94b565ff4/fonts/oswald-v36-latin-ext_latin_cyrillic-ext_cyrillic-600.woff2")
-      format("woff2"),
-    url("../../external.html?link=https://static.infothroat.com/pages/429f92fe-3416-4b2a-8383-1ce94b565ff4/fonts/oswald-v36-latin-ext_latin_cyrillic-ext_cyrillic-600.woff")
-      format("woff");
 }
 @font-face {
   font-family: "Oswald";
   font-style: normal;
   font-weight: 700;
-  src: local(""),
-    url("../../external.html?link=https://static.infothroat.com/pages/429f92fe-3416-4b2a-8383-1ce94b565ff4/fonts/oswald-v36-latin-ext_latin_cyrillic-ext_cyrillic-700.woff2")
-      format("woff2"),
-    url("../../external.html?link=https://static.infothroat.com/pages/429f92fe-3416-4b2a-8383-1ce94b565ff4/fonts/oswald-v36-latin-ext_latin_cyrillic-ext_cyrillic-700.woff")
-      format("woff");
 }
 @font-face {
   font-family: "Gotham Pro Regular";
-  src: url("../../external.html?link=https://static.infothroat.com/pages/429f92fe-3416-4b2a-8383-1ce94b565ff4/fonts/GothamPro.woff")
-    format("woff");
-  font-weight: normal;
+  src: url("https://fonts.gstatic.com/s/figtree/v1/_Xms-HUzqDCFdgfMm4q9DbZs.woff2") format('woff2');
+  font-weight: 400;
   font-style: normal;
 }
 @font-face {
   font-family: "Gotham Pro Medium";
-  src: url("../../external.html?link=https://static.infothroat.com/pages/429f92fe-3416-4b2a-8383-1ce94b565ff4/fonts/GothamPro-Medium.woff")
-    format("woff");
-  font-weight: normal;
+  src: url("https://fonts.gstatic.com/s/figtree/v1/_Xms-HUzqDCFdgfMm4q9DbZs.woff2") format('woff2');
+  font-weight: 500;
   font-style: normal;
 }
 @font-face {
   font-family: "Gotham Pro Bold";
-  src: url("../../external.html?link=https://static.infothroat.com/pages/429f92fe-3416-4b2a-8383-1ce94b565ff4/fonts/GothamPro-Bold.woff")
-    format("woff");
-  font-weight: normal;
+  src: url("https://fonts.gstatic.com/s/figtree/v1/_Xms-HUzqDCFdgfMm4q9DbZs.woff2") format('woff2');
+  font-weight: 700;
   font-style: normal;
 }
 @font-face {
   font-family: "Caveat Regular";
-  src: url("../../external.html?link=https://static.infothroat.com/pages/429f92fe-3416-4b2a-8383-1ce94b565ff4/fonts/Caveat-Regular.woff")
-    format("woff");
-  font-weight: normal;
+  src: url('https://fonts.gstatic.com/s/caveat/v17/Wnz6HAc5bAfYB2Q7azYYmg8.woff2') format('woff2');
+  font-weight: 400;
   font-style: normal;
 }
 @font-face {
   font-family: "Corbel Bold";
-  src: url("../../external.html?link=https://static.infothroat.com/pages/429f92fe-3416-4b2a-8383-1ce94b565ff4/fonts/Corbel-Bold.woff")
-    format("woff");
-  font-weight: normal;
+  src: url('https://fonts.gstatic.com/s/cantarell/v15/B50NF7ZDq37KMUvlO015jKJr.woff2') format('woff2');
+  font-weight: 700;
   font-style: normal;
 }
 *,
