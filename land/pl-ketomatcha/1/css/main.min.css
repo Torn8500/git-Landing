@@ -7430,7 +7430,7 @@ strong {
 }
 
 .s5-img img {
-	margin-left: -290px
+	/*! margin-left: -290px; */
 }
 
 .s5-list {
@@ -7487,27 +7487,31 @@ strong {
 }
 
 .list-icon.ico1 {
-	background: url(../png/ico1.png) no-repeat center center/cover
+	background: url(../png/ico1-1.png) no-repeat center center/cover
 }
 
 .list-icon.ico2 {
-	background: url(../png/ico2.png) no-repeat center center/cover
+	background: url(../png/ico2-1.png) no-repeat center center/cover
 }
 
 .list-icon.ico3 {
-	background: url(../png/ico3.png) no-repeat center center/cover
+	background: url(../png/ico3-1.png) no-repeat center center/cover
 }
 
 .list-icon.ico4 {
-	background: url(../png/ioc4.png) no-repeat center center/cover
+	background: url(../png/ioc4-1.png) no-repeat center center/cover
 }
 
 .list-icon.ico5 {
-	background: url(../png/ico5.png) no-repeat center center/cover
+	background: url(../png/ico5-1.png) no-repeat center center/cover
 }
 
 .list-icon.ico6 {
-	background: url(../png/ico6.png) no-repeat center center/cover
+	background: url(../png/ico6-1.png) no-repeat center center/cover
+}
+
+.list-icon.ico7 {
+	background: url(../png/ico7-1.png) no-repeat center center/cover
 }
 
 .expert-area {
