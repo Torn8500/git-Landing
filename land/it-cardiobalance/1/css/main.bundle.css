@@ -1545,6 +1545,7 @@ svg {
   .first-section__image-product-wrap {
     left: 8.3125rem;
     top: 4.25rem;
+    width: 23rem;
   }
 }
 @media (max-width: 22.5rem) {
