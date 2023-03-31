@@ -591,3 +591,6 @@ padding-bottom: 25px;
         padding: 25px 0 5px
     }
 }  
+@media all and (max-width: 414px){
+    .doc-top-text { max-width: 160px}
+}
