@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('../gz/subset-proximanova-light.gz') format('woff2'),
+        url('../gz/subset-proximanova-light-2.gz') format('woff'),
+        url('../gz/subset-proximanova-light-3.gz') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('../gz/subset-proximanova-regular.gz') format('woff2'),
+        url('../gz/subset-proximanova-regular-2.gz') format('woff'),
+        url('../gz/subset-proximanova-regular-3.gz') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('../gz/subset-proximanova-semibold.gz') format('woff2'),
+        url('../gz/subset-proximanova-semibold-2.gz') format('woff'),
+        url('../gz/subset-proximanova-semibold-3.gz') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('../gz/subset-proximanova-bold.gz') format('woff2'),
+        url('../gz/subset-proximanova-bold-2.gz') format('woff'),
+        url('../gz/subset-proximanova-bold-3.gz') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+

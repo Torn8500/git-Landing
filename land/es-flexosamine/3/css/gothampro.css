@@ -1,0 +1,37 @@
+@font-face {
+    font-family: 'Gotham Pro';
+    src: url('../gz/subset-gothampro-light.gz') format('woff2'),
+        url('../gz/subset-gothampro-light-2.gz') format('woff'),
+        url('../gz/subset-gothampro-light-3.gz') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Gotham Pro';
+    src: url('../gz/subset-gothampro.gz') format('woff2'),
+        url('../gz/subset-gothampro-2.gz') format('woff'),
+        url('../gz/subset-gothampro-3.gz') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Gotham Pro';
+    src: url('../gz/subset-gothampro-medium.gz') format('woff2'),
+        url('../gz/subset-gothampro-medium-2.gz') format('woff'),
+        url('../gz/subset-gothampro-medium-3.gz') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Gotham Pro';
+    src: url('../gz/subset-gothampro-bold.gz') format('woff2'),
+        url('../gz/subset-gothampro-bold-2.gz') format('woff'),
+        url('../gz/subset-gothampro-bold-3.gz') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+
+
+
