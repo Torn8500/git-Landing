@@ -1,3 +1,4 @@
+
 ! function(i) { "use strict"; "function" == typeof define && define.amd ? define(["jquery"], i) : "undefined" != typeof exports ? module.exports = i(require("jquery")) : i(jQuery) }(function(i) {
     "use strict";
     var e = window.Slick || {};
@@ -500,6 +501,13 @@ $('.reviews__plus').click(function() {
 });
 var reviewSlider = $('.reviews__slider');
 
+/*
+ * Initializes a slider with the given options.
+ *
+ * @param {Object} slider - The slider element to initialize.
+ * @param {Object} options - The options for the slider.
+ * @return {void}
+ */
 function initSlider(slider, options) {
     slider.on('init', function() {
         setTimeout(function() {
@@ -509,12 +517,24 @@ function initSlider(slider, options) {
     slider.not('.slick-initialized').slick(options);
 }
 
+/*
+ * Destroys a slider.
+ *
+ * @param {Object} slider - The slider to destroy.
+ */
 function destroySlider(slider) {
     if (slider.hasClass('slick-initialized')) {
         slider.slick('unslick');
     }
 }
 
+/*
+ * Shows the slider based on the window width. If the window width is less than 1024 pixels, 
+ * the slider is initialized with the specified settings. If the window width is 1024 pixels 
+ * or greater, the slider is destroyed.
+ *
+ * @return {void} 
+ */
 function showSlider() {
     var tablet = $(window).width() < 1024;
     if (tablet) {
@@ -543,64 +563,4 @@ $(window).on('resize', showSlider);
 $('.reviews__slider').on('beforeChange', function(event, slick, currentSlide, nextSlide) {
     $('.reviews__text').removeClass('active');
     $('.reviews__plus').text('+');
-});
-
-// Post Date
-const months = ["января", "февраля", "марта", "апреля", "мая", "июня", "июля", "августа", "сентября", "октября", "ноября", "декабря"],
-    monthMin = ["янв", "фев", "мар", "апр", "май", "июн", "июл", "авг", "сен", "окт", "ноя", "дек"],
-    days = ["воскресенье", "понедельник", "вторник", "среда", "четверг", "пятница", "суббота"],
-    daysMin = ["вс", "пн", "вт", "ср", "чт", "пт", "сб"],
-    seasons = ["зима", "весна", "лето", "осень"];
-
-function postDate(daysName, daysMinName, monthsName, monthsMinName, seasonsName) {
-    const _counterLength = 60;
-    for (let counter = 0; counter < _counterLength; counter++) {
-        innerDate(counter, 'date-');
-        innerDate(counter, 'date')
-    }
-
-    function innerDate(counter, dateType) {
-        let newCounter;
-        dateType === 'date-' ? newCounter = -counter : newCounter = counter;
-        const _msInDay = 86400000,
-            _localDate = new Date(Date.now() + (newCounter * _msInDay)),
-            _day = _localDate.getDate(),
-            _month = _localDate.getMonth() + 1,
-            _year = _localDate.getFullYear();
-        const dayDefault = addZero(_day),
-            monthDefault = addZero(_month),
-            defaultDate = dayDefault + '.' + monthDefault + '.' + _year;
-        const dateClass = dateType + counter,
-            nodeList = document.querySelectorAll('.' + dateClass);
-        for (let i = 0; i < nodeList.length; i++) {
-            const dateFormat = nodeList[i].dataset.format;
-            dateFormat !== undefined && dateFormat !== '' ? nodeList[i].innerHTML = String(changeFormat(dayDefault, _month, _year, dateFormat, newCounter)) : nodeList[i].innerHTML = defaultDate
-        }
-    }
-
-    function changeFormat(_day, _month, _year, format, counter) {
-        let innerFormat = format;
-        const testFormat = ["dd", "mm", "yyyy", "year"],
-            dateFormat = { dd: _day, mm: addZero(_month), yyyy: _year, year: getYearWithCounter(_year, counter), };
-        for (let i = 0; i < testFormat.length; i++) {
-            let string = testFormat[i];
-            let regExp = new RegExp(string);
-            innerFormat = innerFormat.replace(regExp, dateFormat[string]);
-        }
-        return innerFormat.split(' ').join(' ')
-    }
-
-    function getYearWithCounter(year, counter) { return year + counter }
-
-    function addZero(numb) { return numb < 10 ? '0' + numb : numb }
-
-    function changeFirstLetter(isBig, str) { return isBig && str && str.length > 0 ? str[0].toUpperCase() + str.slice(1) : str }
-}
-if (document.body.classList.contains('ev-date')) { document.addEventListener("DOMContentLoaded", function() { postDate(days, daysMin, months, monthMin, seasons) }); }
-
-$(".ever-popup-btn").on("click", () => {
-    $("html, body").stop().animate({
-        scrollTop: $("#form").offset().top - 30
-    }, 1000);
-    return false;
 });
